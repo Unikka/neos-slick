@@ -17,7 +17,7 @@
         {
             "path": "@semantic-release/git",
             "assets": ["package.json", "Resources/Public", "CHANGELOG.md"],
-            "message": "Build: Release ${nextRelease.version}"
+            "message": "Build: Release ${nextRelease.version} [skip ci]"
         }
     ],
     "publish": ["@semantic-release/github"]
