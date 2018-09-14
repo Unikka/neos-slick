@@ -7,6 +7,17 @@
         "slick-carousel": "^1.8.1"
     },
     "scripts": {
-        "copy": "cp -r ./node_modules/slick-carousel/slick/* ./Resources/Public"
+        "copy": "cp -r ./node_modules/slick-carousel/slick/* ./Resources/Public",
+        "commit": "git-cz"
+    },
+    "devDependencies": {
+        "commitizen": "^2.10.1",
+        "conventional-changelog-eslint": "^3.0.0",
+        "cz-adapter-eslint": "^0.1.2"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-adapter-eslint"
+        }
     }
 }
