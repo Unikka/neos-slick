@@ -1,0 +1,21 @@
+'Noerdisch.Slick:Mixin.Autoplay':
+  abstract: true
+
+  properties:
+    autoplay:
+      type: boolean
+      defaultValue: false
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-behavior'
+
+    autoplaySpeed:
+      type: integer
+      defaultValue: 3000
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-behavior'

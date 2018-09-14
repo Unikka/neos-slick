@@ -1,0 +1,16 @@
+prototype(Noerdisch.Slick:Javascript) <  prototype(Neos.Fusion:Array) {
+    file = Carbon.IncludeAssets:File {
+        file = 'slick.min.js'
+        assetPackage = 'Noerdisch.Slick'
+        assetPath = 'Public'
+    }
+
+    inline = Neos.Fusion:Tag {
+        tagName = 'script'
+        attributes.type = 'text/javascript'
+
+        content = "(function($) { setTimeout(function() { $('[data-slick]').slick();}, 0); })(jQuery);"
+    }
+
+    @if.includeCase = Noerdisch.Slick:IncludeCase
+}

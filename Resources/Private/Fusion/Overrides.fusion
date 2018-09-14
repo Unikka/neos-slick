@@ -1,0 +1,9 @@
+prototype(Neos.Neos:Page) {
+    slickHead = Noerdisch.Slick:Stylesheet {
+        @position = 'before closingHeadTag'
+    }
+
+    slickBody = Noerdisch.Slick:Javascript {
+        @position = 'before closingBodyTag'
+    }
+}

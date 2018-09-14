@@ -1,0 +1,48 @@
+'Noerdisch.Slick:Mixin.Repsonsive.Xl':
+  abstract: true
+
+  properties:
+    xlEnabled:
+      type: boolean
+      defaultValue: false
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.Responsive:properties.enabled'
+        inspector:
+          group: 'slick-responsive-xl'
+
+    xlSlidesToShow:
+      type: integer
+      defaultValue: 1
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.SlidesToShow:properties.slidesToShow'
+        inspector:
+          group: 'slick-responsive-xl'
+
+    xlSlidesToScroll:
+      type: integer
+      defaultValue: 1
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.SlidesToScroll:properties.slidesToScroll'
+        inspector:
+          group: 'slick-responsive-xl'
+
+    xlArrows:
+      type: boolean
+      defaultValue: true
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.Arrows:properties.arrows'
+        inspector:
+          group: 'slick-responsive-xl'
+
+    xlDots:
+      type: boolean
+      defaultValue: false
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.Dots:properties.dots'
+        inspector:
+          group: 'slick-responsive-xl'

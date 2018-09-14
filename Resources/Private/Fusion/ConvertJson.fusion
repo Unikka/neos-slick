@@ -1,0 +1,3 @@
+prototype(Noerdisch.Slick:ConvertJson) {
+   @class = 'Noerdisch\\Slick\\Fusion\\ConvertJsonImplementation'
+}

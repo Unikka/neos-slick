@@ -1,0 +1,48 @@
+'Noerdisch.Slick:Mixin.Repsonsive.Md':
+  abstract: true
+
+  properties:
+    mdEnabled:
+      type: boolean
+      defaultValue: false
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.Responsive:properties.enabled'
+        inspector:
+          group: 'slick-responsive-md'
+
+    mdSlidesToShow:
+      type: integer
+      defaultValue: 1
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.SlidesToShow:properties.slidesToShow'
+        inspector:
+          group: 'slick-responsive-md'
+
+    mdSlidesToScroll:
+      type: integer
+      defaultValue: 1
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.SlidesToScroll:properties.slidesToScroll'
+        inspector:
+          group: 'slick-responsive-md'
+
+    mdArrows:
+      type: boolean
+      defaultValue: true
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.Arrows:properties.arrows'
+        inspector:
+          group: 'slick-responsive-md'
+
+    mdDots:
+      type: boolean
+      defaultValue: false
+      ui:
+        reloadPageIfChanged: true
+        label: 'Noerdisch.Slick:NodeTypes.Mixin.Dots:properties.dots'
+        inspector:
+          group: 'slick-responsive-md'

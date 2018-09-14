@@ -1,0 +1,20 @@
+prototype(Noerdisch.Slick:Content.Slider) < prototype(Neos.Neos:ContentComponent) {
+    slickProperties = ${ Noerdisch.Slick.getPropertiesByKeys(node, [
+        'draggable', 'infinite', 'pauseOnHover', 'autoplaySpeed', 'speed',
+        'autoplay', 'fade', 'arrows', 'dots', 'rtl', 'slidesToShow', 'slidesToScroll'
+    ]) }
+    responsiveProperties = Noerdisch.Slick:Content.Slide.ResponsiveConfig.Array {
+        @context.node = ${ node }
+    }
+    renderer =  Neos.Neos:ContentCollection {
+        attributes.data-slick = Noerdisch.Slick:ConvertJson {
+            autoplayOverride = Neos.Fusion:RawArray {
+                autoplay = ${ Configuration.setting('Noerdisch.Slick.backend.disableAutoplay') && node.context.inBackend ? false : props.slickProperties.autoplay }
+            }
+            value = ${ Array.concat(props.slickProperties, props.responsiveProperties, this.autoplayOverride) }
+        }
+        attributes.class.@process.collectionClass >
+
+        nodePath = ${ q(node).property('_path') }
+    }
+}

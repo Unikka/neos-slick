@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Noerdisch.Slick" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="properties.autoplay" xml:space="preserve">
+				<source>Autoplay</source>
+                <target xml:lang="de">Automatisch wechseln</target>
+			</trans-unit>
+            <trans-unit id="properties.autoplaySpeed" xml:space="preserve">
+				<source>Autoplay speed (ms)</source>
+                <target xml:lang="de">Wechsel Geschwindigkeit (ms)</target>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>

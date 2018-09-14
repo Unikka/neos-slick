@@ -1,0 +1,12 @@
+'Noerdisch.Slick:Mixin.Fade':
+  abstract: true
+
+  properties:
+    fade:
+      type: boolean
+      defaultValue: false
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-animation'

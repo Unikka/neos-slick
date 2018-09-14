@@ -1,0 +1,13 @@
+Noerdisch:
+  Slick:
+    # include the theme css file form slick
+    theme: true
+    backend:
+      # disables autoplay in backend
+      disableAutoplay: true
+    # breakpoints for the repsonsive tab
+    responsive:
+      sm: 576
+      md: 768
+      lg: 992
+      xl: 1200

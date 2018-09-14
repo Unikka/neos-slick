@@ -1,0 +1,8 @@
+prototype(Noerdisch.Slick:IncludeCase) <  prototype(Neos.Fusion:Value) {
+    value = Carbon.Condition:Case {
+        content {
+            collection = '[instanceof Neos.Neos:ContentCollection]'
+            filter = '[instanceof Noerdisch.Slick:Content.Slider]'
+        }
+    }
+}

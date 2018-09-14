@@ -1,0 +1,12 @@
+'Noerdisch.Slick:Mixin.Dots':
+  abstract: true
+
+  properties:
+    dots:
+      type: boolean
+      defaultValue: false
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-appearance'

@@ -1,0 +1,15 @@
+'Noerdisch.Slick:Content.Slide':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+    'Noerdisch.Slick:Mixin.BackgroundImage': true
+
+  ui:
+    label: 'Slide'
+    icon: 'image'
+    inspector:
+      groups:
+        'slide':
+          label: 'i18n'
+          icon: 'icon-picture'
+          tab: 'default'

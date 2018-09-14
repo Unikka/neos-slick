@@ -1,0 +1,24 @@
+prototype(Noerdisch.Slick:Content.Slide) < prototype(Neos.Neos:ContentComponent) {
+    backgroundImage = ${ q(node).property('backgroundImage') }
+    backgroundImage.@process.convertToUri = Neos.Neos:ImageUri {
+        asset = ${ value }
+    }
+
+    renderer = Neos.Fusion:Tag {
+        content = Neos.Neos:ContentCollection {
+            attributes {
+                class = 'slide__inner'
+                class.@process.collectionClass >
+
+                style = Neos.Fusion:Array {
+                    backgroundImage = ${ 'background-image: url(\'' + props.backgroundImage + '\');' }
+                    backgroundSize = ${ 'background-size: cover;' }
+                    backgroundPosition = ${ 'background-position: center center;' }
+                }
+                style.@if.hasBackground = ${ props.backgroundImage }
+            }
+
+            nodePath = ${q(node).property('_path')}
+        }
+    }
+}

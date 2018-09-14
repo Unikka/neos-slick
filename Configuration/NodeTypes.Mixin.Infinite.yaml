@@ -1,0 +1,12 @@
+'Noerdisch.Slick:Mixin.Infinite':
+  abstract: true
+
+  properties:
+    infinite:
+      type: boolean
+      defaultValue: true
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-behavior'

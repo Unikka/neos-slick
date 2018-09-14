@@ -1,0 +1,10 @@
+'Noerdisch.Slick:Mixin.BackgroundImage':
+  abstract: true
+
+  properties:
+    backgroundImage:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: 'i18n'
+        inspector:
+          group: 'slide'

@@ -1,0 +1,12 @@
+'Noerdisch.Slick:Mixin.Draggable':
+  abstract: true
+
+  properties:
+    draggable:
+      type: boolean
+      defaultValue: true
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-behavior'

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Noerdisch.Slick" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="groups.slick-behavior">
+                <source>Behaviour</source>
+                <target xml:lang="de">Verhalten</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-appearance">
+                <source>Appearance</source>
+                <target xml:lang="de">Aussehn</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-animation">
+                <source>Animation</source>
+                <target xml:lang="de">Animation</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-responsive-sm">
+                <source>Small devices</source>
+                <target xml:lang="de">Kleines Gerät</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-responsive-md">
+                <source>Medium devices</source>
+                <target xml:lang="de">Mittleres Gerät</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-responsive-lg">
+                <source>Large devices</source>
+                <target xml:lang="de">Großes Gerät</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-responsive-xl">
+                <source>Extra large devices</source>
+                <target xml:lang="de">Sehr großes Gerät</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,77 @@
+'Noerdisch.Slick:Content.Slider':
+  superTypes:
+    'Neos.Neos:Content': true
+    'Neos.Neos:ContentCollection': true
+    # slider property mixins
+    'Noerdisch.Slick:Mixin.Autoplay': true
+    'Noerdisch.Slick:Mixin.SlidesToScroll': true
+    'Noerdisch.Slick:Mixin.Infinite': true
+    'Noerdisch.Slick:Mixin.Draggable': true
+    'Noerdisch.Slick:Mixin.PauseOnHover': true
+    'Noerdisch.Slick:Mixin.AnimationSpeed': true
+    'Noerdisch.Slick:Mixin.Fade': false # take a look at the Readme.md
+    'Noerdisch.Slick:Mixin.Arrows': true
+    'Noerdisch.Slick:Mixin.Dots': true
+    'Noerdisch.Slick:Mixin.SlidesToShow': true
+    # the responsive mixins
+    'Noerdisch.Slick:Mixin.Repsonsive.Sm': true
+    'Noerdisch.Slick:Mixin.Repsonsive.Md': true
+    'Noerdisch.Slick:Mixin.Repsonsive.Lg': true
+    'Noerdisch.Slick:Mixin.Repsonsive.Xl': true
+
+  constraints:
+    nodeTypes:
+      '*': false
+      'Noerdisch.Slick:Content.Slide': true
+
+  label: '${ I18n.translate(node.nodeType.label) + " (" + q(node).children().count() + " Slides)" }'
+
+  ui:
+    label: 'Slick-Slider'
+    icon: 'images'
+    inspector:
+      tabs:
+        'slick':
+          label: 'Slick '
+          icon: 'icon-images'
+          position: 'before slick-responsive'
+
+        'slick-responsive':
+          label: 'Slick Responsive'
+          icon: 'icon-mobile'
+          position: 'before meta'
+      groups:
+        'slick-behavior':
+          label: 'i18n'
+          icon: 'icon-images'
+          tab: 'slick'
+
+        'slick-appearance':
+          label: 'i18n'
+          icon: 'icon-images'
+          tab: 'slick'
+
+        'slick-animation':
+          label: 'i18n'
+          icon: 'icon-images'
+          tab: 'slick'
+
+        'slick-responsive-sm':
+          label: 'i18n'
+          icon: 'icon-mobile'
+          tab: 'slick-responsive'
+
+        'slick-responsive-md':
+          label: 'i18n'
+          icon: 'icon-tablet'
+          tab: 'slick-responsive'
+
+        'slick-responsive-lg':
+          label: 'i18n'
+          icon: 'icon-laptop'
+          tab: 'slick-responsive'
+
+        'slick-responsive-xl':
+          label: 'i18n'
+          icon: 'icon-desktop'
+          tab: 'slick-responsive'

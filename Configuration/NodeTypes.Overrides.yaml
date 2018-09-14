@@ -1,0 +1,4 @@
+'Neos.Neos:ContentCollection':
+  constraints:
+    nodeTypes:
+      'Noerdisch.Slick:Content.Slide': false

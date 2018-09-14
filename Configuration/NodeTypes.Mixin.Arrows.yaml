@@ -1,0 +1,12 @@
+'Noerdisch.Slick:Mixin.Arrows':
+  abstract: true
+
+  properties:
+    arrows:
+      type: boolean
+      defaultValue: true
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-appearance'

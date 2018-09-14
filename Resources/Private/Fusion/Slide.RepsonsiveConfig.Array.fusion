@@ -1,0 +1,39 @@
+prototype(Noerdisch.Slick:Content.Slide.ResponsiveConfig.Array) < prototype(Neos.Fusion:RawArray) {
+    @context.node = ${ node }
+    @context.responsiveSettings = ${ Configuration.setting('Noerdisch.Slick.responsive') }
+
+    responsive = Neos.Fusion:RawArray {
+        0 = Noerdisch.Slick:Content.Slide.ResponsiveConfig {
+            breakpoint = ${responsiveSettings.sm}
+            slidesToShow = ${q(node).property('smSlidesToShow')}
+            slidesToScroll = ${q(node).property('smSlidesToScroll')}
+            arrows = ${q(node).property('smArrows')}
+            dots = ${ q(node).property('smDots')}
+            @if.isEnabled = ${ q(node).property('smEnabled') }
+        }
+        1 = Noerdisch.Slick:Content.Slide.ResponsiveConfig {
+            breakpoint = ${responsiveSettings.md}
+            slidesToShow = ${q(node).property('mdSlidesToShow')}
+            slidesToScroll = ${q(node).property('mdSlidesToScroll')}
+            arrows = ${q(node).property('mdArrows')}
+            dots = ${ q(node).property('mdDots')}
+            @if.isEnabled = ${ q(node).property('mdEnabled') }
+        }
+        2 = Noerdisch.Slick:Content.Slide.ResponsiveConfig {
+            breakpoint = ${responsiveSettings.lg}
+            slidesToShow = ${q(node).property('lgSlidesToShow')}
+            slidesToScroll = ${q(node).property('lgSlidesToScroll')}
+            arrows = ${q(node).property('lgArrows')}
+            dots = ${ q(node).property('lgDots')}
+            @if.isEnabled = ${ q(node).property('lgEnabled') }
+        }
+        3 = Noerdisch.Slick:Content.Slide.ResponsiveConfig {
+            breakpoint = ${responsiveSettings.xl}
+            slidesToShow = ${q(node).property('xlSlidesToShow')}
+            slidesToScroll = ${q(node).property('xlSlidesToScroll')}
+            arrows = ${q(node).property('xlArrows')}
+            dots = ${ q(node).property('xlDots')}
+            @if.isEnabled = ${ q(node).property('xlEnabled') }
+        }
+    }
+}

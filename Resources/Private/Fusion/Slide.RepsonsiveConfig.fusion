@@ -1,0 +1,24 @@
+prototype(Noerdisch.Slick:Content.Slide.ResponsiveConfig) < prototype(Neos.Fusion:Component) {
+    breakpoint = 0
+    slidesToShow = 1
+    slidesToScroll = 1
+    arrows = true
+    dots = true
+
+    renderer = Neos.Fusion:RawArray {
+        breakpoint = ${ props.breakpoint }
+        settings = Neos.Fusion:RawArray {
+            slidesToShow = ${ props.slidesToShow }
+            slidesToShow.@if.hasProp = ${ props.slidesToShow }
+
+            slidesToScroll = ${ props.slidesToScroll }
+            slidesToScroll.@if.hasProp = ${ props.slidesToScroll }
+
+            arrows = ${ props.arrows }
+            arrows.@if.hasProp = ${ props.arrows }
+
+            dots = ${ props.dots }
+            dots.@if.hasProp = ${ props.dots }
+        }
+    }
+}

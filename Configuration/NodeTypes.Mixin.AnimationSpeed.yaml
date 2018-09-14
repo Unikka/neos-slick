@@ -1,0 +1,13 @@
+'Noerdisch.Slick:Mixin.AnimationSpeed':
+  abstract: true
+
+  properties:
+    # speed of the animation
+    speed:
+      type: integer
+      defaultValue: 300
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-animation'

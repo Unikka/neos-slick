@@ -1,0 +1,13 @@
+Neos:
+  Neos:
+    userInterface:
+      translation:
+        autoInclude:
+          'Noerdisch.Slick':
+          - 'NodeTypes/*'
+    fusion:
+      autoInclude:
+        Noerdisch.Slick: true
+  Fusion:
+    defaultContext:
+      'Noerdisch.Slick': 'Noerdisch\Slick\Eel\Helper\SlickEelHelper'

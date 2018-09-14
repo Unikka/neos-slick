@@ -1,0 +1,12 @@
+'Noerdisch.Slick:Mixin.SlidesToScroll':
+  abstract: true
+
+  properties:
+    slidesToScroll:
+      type: integer
+      defaultValue: 1
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-behavior'

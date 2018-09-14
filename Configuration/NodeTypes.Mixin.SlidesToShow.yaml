@@ -1,0 +1,12 @@
+'Noerdisch.Slick:Mixin.SlidesToShow':
+  abstract: true
+
+  properties:
+    slidesToShow:
+      type: integer
+      defaultValue: 1
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-appearance'
