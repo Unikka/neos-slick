@@ -8,12 +8,17 @@
     },
     "scripts": {
         "copy": "cp -r ./node_modules/slick-carousel/slick/* ./Resources/Public",
+        "test": "echo \"Error: no test specified\" && exit 0",
+        "semantic-release": "semantic-release",
         "commit": "git-cz"
     },
     "devDependencies": {
+        "@semantic-release/changelog": "^3.0.0",
+        "@semantic-release/git": "^7.0.4",
         "commitizen": "^2.10.1",
         "conventional-changelog-eslint": "^3.0.0",
-        "cz-adapter-eslint": "^0.1.2"
+        "cz-adapter-eslint": "^0.1.2",
+        "semantic-release": "^15.9.15"
     },
     "config": {
         "commitizen": {
