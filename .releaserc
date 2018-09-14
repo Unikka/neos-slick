@@ -1,0 +1,7 @@
+{
+    "branch": "master",
+    "analyzeCommits": {
+        "preset": "eslint"
+    },
+    "publish": ["@semantic-release/github"]
+}
