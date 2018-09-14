@@ -8,7 +8,7 @@
       "@semantic-release/npm",
       {
         "path": "@semantic-release/git",
-        "assets": ["package.json"],
+        "assets": ["package.json", "Resources/Public"],
         "message": "Build: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
       }
     ],
