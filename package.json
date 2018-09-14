@@ -8,6 +8,7 @@
     },
     "scripts": {
         "copy": "cp -r ./node_modules/slick-carousel/slick/* ./Resources/Public",
+        "test": "echo \"Error: no test specified\" && exit 0",
         "semantic-release": "semantic-release",
         "commit": "git-cz"
     },
