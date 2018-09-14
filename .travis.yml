@@ -12,6 +12,7 @@ before_install:
   - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.9.4
   - export PATH="$HOME/.yarn/bin:$PATH"
   - yarn global add babel-cli
+  - yarn global add @semantic-release/git semantic-release
 after_success:
   - yarn copy
   - npm run semantic-release
