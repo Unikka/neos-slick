@@ -5,12 +5,13 @@
     },
     "verifyConditions": ["@semantic-release/github"],
     "prepare": [
-      "@semantic-release/npm",
-      {
-        "path": "@semantic-release/git",
-        "assets": ["package.json", "Resources/Public"],
-        "message": "Build: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-      }
+        "@semantic-release/changelog"
+        "@semantic-release/npm",
+        {
+            "path": "@semantic-release/git",
+            "assets": ["package.json", "Resources/Public"],
+            "message": "Build: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
     ],
     "publish": ["@semantic-release/github"]
 }
