@@ -1,7 +1,7 @@
 {
     "name": "neos-slick",
     "version": "1.0.0",
-    "repository": "git@github.com:noerdisch/neos-slick.git",
+    "repository": "git@github.com:markusguenther/neos-slick.git",
     "license": "MIT",
     "dependencies": {
         "slick-carousel": "^1.8.1"
