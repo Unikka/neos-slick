@@ -4,5 +4,13 @@
         "preset": "eslint"
     },
     "verifyConditions": ["@semantic-release/github"],
+    "prepare": [
+      "@semantic-release/npm",
+      {
+        "path": "@semantic-release/git",
+        "assets": ["package.json"],
+        "message": "Build: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
     "publish": ["@semantic-release/github"]
 }
