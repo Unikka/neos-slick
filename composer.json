@@ -2,6 +2,7 @@
     "description": "Neos CMS plugin for a slick slider content element",
     "type": "neos-plugin",
     "name": "noerdisch/neos-slick",
+    "license": "MIT",
     "require": {
         "ext-json": "*",
         "neos/flow": "*",
