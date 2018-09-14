@@ -4,7 +4,7 @@
     "repository": "git@github.com:markusguenther/neos-slick.git",
     "license": "MIT",
     "dependencies": {
-        "slick-carousel": "^1.8.1"
+        "slick-carousel": "1.8.0"
     },
     "scripts": {
         "copy": "cp -r ./node_modules/slick-carousel/slick/* ./Resources/Public",
