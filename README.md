@@ -2,6 +2,7 @@
 [![Latest Stable Version](https://poser.pugx.org/noerdisch/neos-slick/v/stable)](https://packagist.org/packages/noerdisch/neos-slick)
 [![Downloads](https://img.shields.io/packagist/dt/noerdisch/neos-slick.svg)](https://packagist.org/packages/noerdisch/neos-slick)
 [![License](https://img.shields.io/github/license/noerdisch/neos-slick.svg)](LICENSE)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![GitHub stars](https://img.shields.io/github/stars/noerdisch/neos-slick.svg?style=social&label=Stars)](https://github.com/noerdisch/neos-slick/stargazers)
 [![GitHub watchers](https://img.shields.io/github/watchers/noerdisch/neos-slick.svg?style=social&label=Watch)](https://github.com/noerdisch/neos-slick/subscription)
 
