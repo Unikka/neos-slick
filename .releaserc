@@ -10,7 +10,7 @@
         {
             "path": "@semantic-release/git",
             "assets": ["package.json", "Resources/Public"],
-            "message": "Build: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            "message": "Build: Release ${nextRelease.version}"
         }
     ],
     "publish": ["@semantic-release/github"]
