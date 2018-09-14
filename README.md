@@ -1,10 +1,16 @@
-# Slick Content Element for Neos CMS 
-[![Latest Stable Version](https://poser.pugx.org/noerdisch/neos-slick/v/stable)](https://packagist.org/packages/noerdisch/neos-slick)
-[![Downloads](https://img.shields.io/packagist/dt/noerdisch/neos-slick.svg)](https://packagist.org/packages/noerdisch/neos-slick)
+<p align="center">
+    <a href="https://www.noerdisch.de" target="_blank">
+        <img src="https://cdn.rawgit.com/markusguenther/abe70d34f4a4621aed0ef504c5d0192b/raw/5bf0f3df328e58ba7aad067a56cbd1c15ef69491/logo_full.svg" width="300">
+    </a>
+</p>
+
+[![Packagist](https://img.shields.io/packagist/l/noerdisch/neos-slick.svg?style=flat-square)](https://packagist.org/packages/noerdisch/elasticlog)
+[![Packagist](https://img.shields.io/packagist/v/noerdisch/neos-slick.svg?style=flat-square)](https://packagist.org/packages/noerdisch/elasticlog)
 [![License](https://img.shields.io/github/license/noerdisch/neos-slick.svg)](LICENSE)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![GitHub stars](https://img.shields.io/github/stars/noerdisch/neos-slick.svg?style=social&label=Stars)](https://github.com/noerdisch/neos-slick/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/noerdisch/neos-slick.svg?style=social&label=Watch)](https://github.com/noerdisch/neos-slick/subscription)
+[![Twitter Follow](https://img.shields.io/twitter/follow/noerdisch.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/noerdisch)
+
+# Slick Content Element for Neos CMS 
 
 This is a ready to use implementation of the Javascript package [slick](http://kenwheeler.github.io/slick/). 
 
