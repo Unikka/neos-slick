@@ -6,9 +6,9 @@ setup_git() {
 }
 
 commit_public_resources() {
-  git add . *
+  git add ./Resources/Public
   git commit --message "Build: Adding public resources for BUILD $TRAVIS_BUILD_NUMBER"
-  git push
+  git push origin HEAD:master
 }
 
 copy_node_modules_files() {
