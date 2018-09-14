@@ -3,7 +3,7 @@
     "analyzeCommits": {
         "preset": "eslint"
     },
-    "verifyConditions": ["@semantic-release/github"],
+    "verifyConditions": ["@semantic-release/changelog", "@semantic-release/github"],
     "prepare": [
         "@semantic-release/changelog",
         "@semantic-release/npm",
