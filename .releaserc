@@ -3,5 +3,6 @@
     "analyzeCommits": {
         "preset": "eslint"
     },
+    "verifyConditions": ["@semantic-release/github"],
     "publish": ["@semantic-release/github"]
 }
