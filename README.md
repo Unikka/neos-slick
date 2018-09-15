@@ -7,7 +7,7 @@
 [![Packagist](https://img.shields.io/packagist/l/noerdisch/neos-slick.svg?style=flat-square)](https://packagist.org/packages/noerdisch/neos-slick)
 [![Packagist](https://img.shields.io/packagist/v/noerdisch/neos-slick.svg?style=flat-square)](https://packagist.org/packages/noerdisch/neos-slick)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![Twitter Follow](https://img.shields.io/twitter/follow/noerdisch.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/noerdisch)
+[![Twitter Follow](https://img.shields.io/twitter/follow/noerdisch.svg?style=social&label=Follow&style=flat-square)](https://twitter.com/noerdisch) [![Greenkeeper badge](https://badges.greenkeeper.io/noerdisch/neos-slick.svg)](https://greenkeeper.io/)
 
 # Slick Content Element for Neos CMS 
 
