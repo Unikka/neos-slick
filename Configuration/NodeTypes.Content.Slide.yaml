@@ -3,6 +3,7 @@
     'Neos.Neos:Content': true
     'Neos.Neos:ContentCollection': true
     'Noerdisch.Slick:Mixin.BackgroundImage': true
+    'Noerdisch.Slick:Mixin.AdditionalClass': true
 
   ui:
     label: 'Slide'
@@ -12,4 +13,8 @@
         'slide':
           label: 'i18n'
           icon: 'icon-picture'
+          tab: 'default'
+        'slick-appearance':
+          label: 'i18n'
+          icon: 'icon-images'
           tab: 'default'

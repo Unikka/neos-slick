@@ -13,6 +13,7 @@
     'Noerdisch.Slick:Mixin.Arrows': true
     'Noerdisch.Slick:Mixin.Dots': true
     'Noerdisch.Slick:Mixin.SlidesToShow': true
+    'Noerdisch.Slick:Mixin.AdditionalClass': true
     # the responsive mixins
     'Noerdisch.Slick:Mixin.Repsonsive.Sm': true
     'Noerdisch.Slick:Mixin.Repsonsive.Md': true
