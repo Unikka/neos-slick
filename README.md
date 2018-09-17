@@ -37,7 +37,7 @@ This package uses background images as slide.  If you want to use a fixed height
 ```
 
 ### Fade option
-The fade options is disabled by default, because if you enable fade, the slides to show options isnt working. But you can simply enable it like this:
+The fade options is disabled by default, because if you enable fade, the slides to show options isn't working. But you can simply enable it like this:
 
 ```yaml
 'Noerdisch.Slick:Content.Slider':
@@ -72,7 +72,7 @@ We are using semantic-release to have more time to concentrate on important stuf
 instead of struggling in the dependency or release hell.
 
 Therefore the first rule is to follow the [eslint commit message guideline](https://github.com/conventional-changelog-archived-repos/conventional-changelog-eslint/blob/master/convention.md).
-When you always commit via `yarn commit` this is really easy. Commitizen will guide you.
+It is really easy, when you always commit via `yarn commit`. Commitizen will guide you.
 
 All PRs will be merged into the master branch. Travis and semantic release will check the commit messages and start
 building a new release when the analysis of the latest commits will trigger that.
