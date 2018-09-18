@@ -36,6 +36,44 @@ This package uses background images as slide.  If you want to use a fixed height
 }
 ```
 
+### Disabling / Enabling feature
+The Slide and the Slider element have a few mixins, which you can enable / disable to add / remove a feature.
+
+#### Example 
+If you want to disbale the autoplay option in the backend, you can do this:
+
+```yaml
+'Noerdisch.Slick:Content.Slider':
+  superTypes:
+    'Noerdisch.Slick:Mixin.Autoplay': false
+```
+
+#### `Noerdisch.Slick:Content.Slider` Mixins
+| Mixin                                 | Default value | Description              |
+|---------------------------------------|---------------|--------------------------|
+| Noerdisch.Slick:Mixin.Autoplay        | true          | Autoplay option          |
+| Noerdisch.Slick:Mixin.SlidesToScroll  | true          | How many slides scroll   |
+| Noerdisch.Slick:Mixin.Infinite        | true          | Infinite scrolling       |
+| Noerdisch.Slick:Mixin.Draggable       | true          | Draggable                |
+| Noerdisch.Slick:Mixin.PauseOnHover    | true          | Pause on hover           |
+| Noerdisch.Slick:Mixin.AnimationSpeed  | true          | Animation speed          |
+| Noerdisch.Slick:Mixin.Fade            | false         | Fade                     |
+| Noerdisch.Slick:Mixin.Arrows          | true          | Arrows shown             |
+| Noerdisch.Slick:Mixin.Dots            | true          | Dots shown               |
+| Noerdisch.Slick:Mixin.SlidesToShow    | true          | Slide shown at once      |
+| Noerdisch.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class     |
+| Noerdisch.Slick:Mixin.Repsonsive.Sm   | true          | Responsive group mobile  |
+| Noerdisch.Slick:Mixin.Repsonsive.Md   | true          | Responsive group tablet  |
+| Noerdisch.Slick:Mixin.Repsonsive.Lg   | true          | Responsive group laptop  |
+| Noerdisch.Slick:Mixin.Repsonsive.Xl   | true          | Responsive group desktop |
+
+#### `Noerdisch.Slick:Content.Slide` Mixins
+
+| Mixin                                 | Default value | Description                |
+|---------------------------------------|---------------|----------------------------|
+| Noerdisch.Slick:Mixin.BackgroundImage | true          | Background iamge for Slide |
+| Noerdisch.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class       |
+
 ### Fade option
 The fade options is disabled by default, because if you enable fade, the slides to show options isn't working. But you can simply enable it like this:
 
