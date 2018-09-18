@@ -16,5 +16,5 @@
           tab: 'default'
         'slick-appearance':
           label: 'i18n'
-          icon: 'icon-images'
+          icon: 'icon-picture'
           tab: 'default'
