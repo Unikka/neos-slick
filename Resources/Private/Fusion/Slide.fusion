@@ -9,7 +9,7 @@ prototype(Noerdisch.Slick:Content.Slide) < prototype(Neos.Neos:ContentComponent)
             attributes {
                 class = Neos.Fusion:RawArray {
                     class = 'slide__inner'
-                    additionalClass = ${node.properties.additionalClass}
+                    additionalClass = ${ q(node).property('additionalClass') }
                     @process.collectionClass >
                 }
 
