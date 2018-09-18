@@ -1,0 +1,12 @@
+'Noerdisch.Slick:Mixin.AdditionalClass':
+  abstract: true
+
+  properties:
+    additionalClass:
+      type: string
+      defaultValue: true
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        inspector:
+          group: 'slick-appearance'

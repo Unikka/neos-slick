@@ -7,8 +7,11 @@ prototype(Noerdisch.Slick:Content.Slide) < prototype(Neos.Neos:ContentComponent)
     renderer = Neos.Fusion:Tag {
         content = Neos.Neos:ContentCollection {
             attributes {
-                class = 'slide__inner'
-                class.@process.collectionClass >
+                class = Neos.Fusion:RawArray {
+                    class = 'slide__inner'
+                    additionalClass = ${ q(node).property('additionalClass') }
+                    @process.collectionClass >
+                }
 
                 style = Neos.Fusion:Array {
                     backgroundImage = ${ 'background-image: url(\'' + props.backgroundImage + '\');' }

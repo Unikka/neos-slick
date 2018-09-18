@@ -7,6 +7,7 @@ prototype(Noerdisch.Slick:Content.Slider) < prototype(Neos.Neos:ContentComponent
         @context.node = ${ node }
     }
     renderer =  Neos.Neos:ContentCollection {
+        attributes.class = ${ q(node).property.('additionalClass') }
         attributes.data-slick = Noerdisch.Slick:ConvertJson {
             autoplayOverride = Neos.Fusion:RawArray {
                 autoplay = ${ Configuration.setting('Noerdisch.Slick.backend.disableAutoplay') && node.context.inBackend ? false : props.slickProperties.autoplay }
