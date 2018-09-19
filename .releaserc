@@ -20,6 +20,12 @@
             "message": "Build: Release ${nextRelease.version} [skip ci]"
         }
     ],
+    "generateNotes": {
+      "preset": "eslint",
+      "writerOpts": {
+        "commitsSort": ["subject", "scope"],
+      }
+    },
     "publish": ["@semantic-release/github"]
 }
 
