@@ -59,7 +59,7 @@ If you want to disbale the autoplay option in the backend, you can do this:
 | Noerdisch.Slick:Mixin.AnimationSpeed  | true          | Animation speed          |
 | Noerdisch.Slick:Mixin.Fade            | false         | Fade                     |
 | Noerdisch.Slick:Mixin.Arrows          | true          | Arrows shown             |
-| Noerdisch.Slick:Mixin.Dots            | true          | Dots shown               |
+| Noerdisch.Slick:Mixin.Dots            | false         | Dots shown               |
 | Noerdisch.Slick:Mixin.SlidesToShow    | true          | Slide shown at once      |
 | Noerdisch.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class     |
 | Noerdisch.Slick:Mixin.Repsonsive.Sm   | true          | Responsive group mobile  |
