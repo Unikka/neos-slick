@@ -1,4 +1,4 @@
 'Neos.Neos:ContentCollection':
   constraints:
     nodeTypes:
-      'Noerdisch.Slick:Content.Slide': false
+      'Unikka.Slick:Content.Slide': false

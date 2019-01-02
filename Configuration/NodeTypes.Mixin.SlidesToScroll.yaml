@@ -1,4 +1,4 @@
-'Noerdisch.Slick:Mixin.SlidesToScroll':
+'Unikka.Slick:Mixin.SlidesToScroll':
   abstract: true
 
   properties:

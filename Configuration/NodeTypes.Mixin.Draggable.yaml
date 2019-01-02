@@ -1,4 +1,4 @@
-'Noerdisch.Slick:Mixin.Draggable':
+'Unikka.Slick:Mixin.Draggable':
   abstract: true
 
   properties:

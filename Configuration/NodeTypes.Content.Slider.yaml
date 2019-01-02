@@ -1,29 +1,29 @@
-'Noerdisch.Slick:Content.Slider':
+'Unikka.Slick:Content.Slider':
   superTypes:
     'Neos.Neos:Content': true
     'Neos.Neos:ContentCollection': true
     # slider property mixins
-    'Noerdisch.Slick:Mixin.Autoplay': true
-    'Noerdisch.Slick:Mixin.SlidesToScroll': true
-    'Noerdisch.Slick:Mixin.Infinite': true
-    'Noerdisch.Slick:Mixin.Draggable': true
-    'Noerdisch.Slick:Mixin.PauseOnHover': true
-    'Noerdisch.Slick:Mixin.AnimationSpeed': true
-    'Noerdisch.Slick:Mixin.Fade': false # take a look at the Readme.md
-    'Noerdisch.Slick:Mixin.Arrows': true
-    'Noerdisch.Slick:Mixin.Dots': true
-    'Noerdisch.Slick:Mixin.SlidesToShow': true
-    'Noerdisch.Slick:Mixin.AdditionalClass': true
+    'Unikka.Slick:Mixin.Autoplay': true
+    'Unikka.Slick:Mixin.SlidesToScroll': true
+    'Unikka.Slick:Mixin.Infinite': true
+    'Unikka.Slick:Mixin.Draggable': true
+    'Unikka.Slick:Mixin.PauseOnHover': true
+    'Unikka.Slick:Mixin.AnimationSpeed': true
+    'Unikka.Slick:Mixin.Fade': false # take a look at the Readme.md
+    'Unikka.Slick:Mixin.Arrows': true
+    'Unikka.Slick:Mixin.Dots': true
+    'Unikka.Slick:Mixin.SlidesToShow': true
+    'Unikka.Slick:Mixin.AdditionalClass': true
     # the responsive mixins
-    'Noerdisch.Slick:Mixin.Repsonsive.Sm': true
-    'Noerdisch.Slick:Mixin.Repsonsive.Md': true
-    'Noerdisch.Slick:Mixin.Repsonsive.Lg': true
-    'Noerdisch.Slick:Mixin.Repsonsive.Xl': true
+    'Unikka.Slick:Mixin.Repsonsive.Sm': true
+    'Unikka.Slick:Mixin.Repsonsive.Md': true
+    'Unikka.Slick:Mixin.Repsonsive.Lg': true
+    'Unikka.Slick:Mixin.Repsonsive.Xl': true
 
   constraints:
     nodeTypes:
       '*': false
-      'Noerdisch.Slick:Content.Slide': true
+      'Unikka.Slick:Content.Slide': true
 
   label: '${ I18n.translate(node.nodeType.label) + " (" + q(node).children().count() + " Slides)" }'
 

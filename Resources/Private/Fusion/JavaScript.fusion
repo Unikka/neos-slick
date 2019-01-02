@@ -1,7 +1,7 @@
-prototype(Noerdisch.Slick:Javascript) <  prototype(Neos.Fusion:Array) {
+prototype(Unikka.Slick:Javascript) <  prototype(Neos.Fusion:Array) {
     file = Carbon.IncludeAssets:File {
         file = 'slick.min.js'
-        assetPackage = 'Noerdisch.Slick'
+        assetPackage = 'Unikka.Slick'
         assetPath = 'Public'
     }
 
@@ -12,5 +12,5 @@ prototype(Noerdisch.Slick:Javascript) <  prototype(Neos.Fusion:Array) {
         content = "(function($) { setTimeout(function() { $('[data-slick]').slick();}, 0); })(jQuery);"
     }
 
-    @if.includeCase = Noerdisch.Slick:IncludeCase
+    @if.includeCase = Unikka.Slick:IncludeCase
 }

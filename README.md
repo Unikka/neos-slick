@@ -41,51 +41,51 @@ The Slide and the Slider element have a few mixins, which you can enable / disab
 If you want to disbale the autoplay option in the backend, you can do this:
 
 ```yaml
-'Noerdisch.Slick:Content.Slider':
+'Unikka.Slick:Content.Slider':
   superTypes:
-    'Noerdisch.Slick:Mixin.Autoplay': false
+    'Unikka.Slick:Mixin.Autoplay': false
 ```
 
-#### `Noerdisch.Slick:Content.Slider` Mixins
+#### `Unikka.Slick:Content.Slider` Mixins
 | Mixin                                 | Default value | Description              |
 |---------------------------------------|---------------|--------------------------|
-| Noerdisch.Slick:Mixin.Autoplay        | true          | Autoplay option          |
-| Noerdisch.Slick:Mixin.SlidesToScroll  | true          | How many slides scroll   |
-| Noerdisch.Slick:Mixin.Infinite        | true          | Infinite scrolling       |
-| Noerdisch.Slick:Mixin.Draggable       | true          | Draggable                |
-| Noerdisch.Slick:Mixin.PauseOnHover    | true          | Pause on hover           |
-| Noerdisch.Slick:Mixin.AnimationSpeed  | true          | Animation speed          |
-| Noerdisch.Slick:Mixin.Fade            | false         | Fade                     |
-| Noerdisch.Slick:Mixin.Arrows          | true          | Arrows shown             |
-| Noerdisch.Slick:Mixin.Dots            | false         | Dots shown               |
-| Noerdisch.Slick:Mixin.SlidesToShow    | true          | Slide shown at once      |
-| Noerdisch.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class     |
-| Noerdisch.Slick:Mixin.Repsonsive.Sm   | true          | Responsive group mobile  |
-| Noerdisch.Slick:Mixin.Repsonsive.Md   | true          | Responsive group tablet  |
-| Noerdisch.Slick:Mixin.Repsonsive.Lg   | true          | Responsive group laptop  |
-| Noerdisch.Slick:Mixin.Repsonsive.Xl   | true          | Responsive group desktop |
+| Unikka.Slick:Mixin.Autoplay        | true          | Autoplay option          |
+| Unikka.Slick:Mixin.SlidesToScroll  | true          | How many slides scroll   |
+| Unikka.Slick:Mixin.Infinite        | true          | Infinite scrolling       |
+| Unikka.Slick:Mixin.Draggable       | true          | Draggable                |
+| Unikka.Slick:Mixin.PauseOnHover    | true          | Pause on hover           |
+| Unikka.Slick:Mixin.AnimationSpeed  | true          | Animation speed          |
+| Unikka.Slick:Mixin.Fade            | false         | Fade                     |
+| Unikka.Slick:Mixin.Arrows          | true          | Arrows shown             |
+| Unikka.Slick:Mixin.Dots            | false         | Dots shown               |
+| Unikka.Slick:Mixin.SlidesToShow    | true          | Slide shown at once      |
+| Unikka.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class     |
+| Unikka.Slick:Mixin.Repsonsive.Sm   | true          | Responsive group mobile  |
+| Unikka.Slick:Mixin.Repsonsive.Md   | true          | Responsive group tablet  |
+| Unikka.Slick:Mixin.Repsonsive.Lg   | true          | Responsive group laptop  |
+| Unikka.Slick:Mixin.Repsonsive.Xl   | true          | Responsive group desktop |
 
-#### `Noerdisch.Slick:Content.Slide` Mixins
+#### `Unikka.Slick:Content.Slide` Mixins
 
 | Mixin                                 | Default value | Description                |
 |---------------------------------------|---------------|----------------------------|
-| Noerdisch.Slick:Mixin.BackgroundImage | true          | Background iamge for Slide |
-| Noerdisch.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class       |
+| Unikka.Slick:Mixin.BackgroundImage | true          | Background iamge for Slide |
+| Unikka.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class       |
 
 ### Fade option
 The fade options is disabled by default, because if you enable fade, the slides to show options isn't working. But you can simply enable it like this:
 
 ```yaml
-'Noerdisch.Slick:Content.Slider':
+'Unikka.Slick:Content.Slider':
   superTypes:
-    'Noerdisch.Slick:Mixin.Fade': true 
-    'Noerdisch.Slick:Mixin.SlidesToShow': false
+    'Unikka.Slick:Mixin.Fade': true 
+    'Unikka.Slick:Mixin.SlidesToShow': false
 ```
 
 ## Configuration
 
 ```yaml
-Noerdisch:
+Unikka:
   Slick:
     # include the theme css file form slick
     theme: true

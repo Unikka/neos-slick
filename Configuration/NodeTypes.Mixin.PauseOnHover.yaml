@@ -1,4 +1,4 @@
-'Noerdisch.Slick:Mixin.PauseOnHover':
+'Unikka.Slick:Mixin.PauseOnHover':
   abstract: true
 
   properties:

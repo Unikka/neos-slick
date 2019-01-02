@@ -1,4 +1,4 @@
-prototype(Noerdisch.Slick:Content.Slide.ResponsiveConfig) < prototype(Neos.Fusion:Component) {
+prototype(Unikka.Slick:Content.Slide.ResponsiveConfig) < prototype(Neos.Fusion:Component) {
     breakpoint = 0
     slidesToShow = 1
     slidesToScroll = 1

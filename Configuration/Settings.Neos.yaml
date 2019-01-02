@@ -3,11 +3,11 @@ Neos:
     userInterface:
       translation:
         autoInclude:
-          'Noerdisch.Slick':
+          'Unikka.Slick':
           - 'NodeTypes/*'
     fusion:
       autoInclude:
-        Noerdisch.Slick: true
+        Unikka.Slick: true
   Fusion:
     defaultContext:
-      'Noerdisch.Slick': 'Noerdisch\Slick\Eel\Helper\SlickEelHelper'
+      'Unikka.Slick': 'Unikka\Slick\Eel\Helper\SlickEelHelper'

@@ -1,9 +1,9 @@
-prototype(Noerdisch.Slick:Content.Slide.ResponsiveConfig.Array) < prototype(Neos.Fusion:RawArray) {
+prototype(Unikka.Slick:Content.Slide.ResponsiveConfig.Array) < prototype(Neos.Fusion:RawArray) {
     @context.node = ${ node }
-    @context.responsiveSettings = ${ Configuration.setting('Noerdisch.Slick.responsive') }
+    @context.responsiveSettings = ${ Configuration.setting('Unikka.Slick.responsive') }
 
     responsive = Neos.Fusion:RawArray {
-        0 = Noerdisch.Slick:Content.Slide.ResponsiveConfig {
+        0 = Unikka.Slick:Content.Slide.ResponsiveConfig {
             breakpoint = ${responsiveSettings.sm}
             slidesToShow = ${q(node).property('smSlidesToShow')}
             slidesToScroll = ${q(node).property('smSlidesToScroll')}
@@ -11,7 +11,7 @@ prototype(Noerdisch.Slick:Content.Slide.ResponsiveConfig.Array) < prototype(Neos
             dots = ${ q(node).property('smDots')}
             @if.isEnabled = ${ q(node).property('smEnabled') }
         }
-        1 = Noerdisch.Slick:Content.Slide.ResponsiveConfig {
+        1 = Unikka.Slick:Content.Slide.ResponsiveConfig {
             breakpoint = ${responsiveSettings.md}
             slidesToShow = ${q(node).property('mdSlidesToShow')}
             slidesToScroll = ${q(node).property('mdSlidesToScroll')}
@@ -19,7 +19,7 @@ prototype(Noerdisch.Slick:Content.Slide.ResponsiveConfig.Array) < prototype(Neos
             dots = ${ q(node).property('mdDots')}
             @if.isEnabled = ${ q(node).property('mdEnabled') }
         }
-        2 = Noerdisch.Slick:Content.Slide.ResponsiveConfig {
+        2 = Unikka.Slick:Content.Slide.ResponsiveConfig {
             breakpoint = ${responsiveSettings.lg}
             slidesToShow = ${q(node).property('lgSlidesToShow')}
             slidesToScroll = ${q(node).property('lgSlidesToScroll')}
@@ -27,7 +27,7 @@ prototype(Noerdisch.Slick:Content.Slide.ResponsiveConfig.Array) < prototype(Neos
             dots = ${ q(node).property('lgDots')}
             @if.isEnabled = ${ q(node).property('lgEnabled') }
         }
-        3 = Noerdisch.Slick:Content.Slide.ResponsiveConfig {
+        3 = Unikka.Slick:Content.Slide.ResponsiveConfig {
             breakpoint = ${responsiveSettings.xl}
             slidesToShow = ${q(node).property('xlSlidesToShow')}
             slidesToScroll = ${q(node).property('xlSlidesToScroll')}

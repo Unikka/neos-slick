@@ -1,4 +1,4 @@
-'Noerdisch.Slick:Mixin.BackgroundImage':
+'Unikka.Slick:Mixin.BackgroundImage':
   abstract: true
 
   properties:

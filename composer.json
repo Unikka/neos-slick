@@ -1,7 +1,7 @@
 {
-    "description": "Neos CMS plugin for a slick slider content element",
+    "description": "Plugin for the Neos CMS that provides a slick slider content element",
     "type": "neos-plugin",
-    "name": "noerdisch/neos-slick",
+    "name": "unikka/neos-slick",
     "license": "MIT",
     "require": {
         "ext-json": "*",
@@ -12,12 +12,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Noerdisch\\Slick\\": "Classes/"
+            "Unikka\\Slick\\": "Classes/"
         }
     },
     "extra": {
         "neos": {
-            "package-key": "Noerdisch.Slick"
+            "package-key": "Unikka.Slick"
         }
     }
 }

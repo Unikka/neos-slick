@@ -1,4 +1,4 @@
-prototype(Noerdisch.Slick:Content.Slide) < prototype(Neos.Neos:ContentComponent) {
+prototype(Unikka.Slick:Content.Slide) < prototype(Neos.Neos:ContentComponent) {
     backgroundImage = ${ q(node).property('backgroundImage') }
     backgroundImage.@process.convertToUri = Neos.Neos:ImageUri {
         asset = ${ value }

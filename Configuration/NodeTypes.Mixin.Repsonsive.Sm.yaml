@@ -1,4 +1,4 @@
-'Noerdisch.Slick:Mixin.Repsonsive.Sm':
+'Unikka.Slick:Mixin.Repsonsive.Sm':
   abstract: true
 
   properties:
@@ -7,7 +7,7 @@
       defaultValue: false
       ui:
         reloadPageIfChanged: true
-        label: 'Noerdisch.Slick:NodeTypes.Mixin.Responsive:properties.enabled'
+        label: 'Unikka.Slick:NodeTypes.Mixin.Responsive:properties.enabled'
         inspector:
           group: 'slick-responsive-sm'
 
@@ -16,7 +16,7 @@
       defaultValue: 1
       ui:
         reloadPageIfChanged: true
-        label: 'Noerdisch.Slick:NodeTypes.Mixin.SlidesToShow:properties.slidesToShow'
+        label: 'Unikka.Slick:NodeTypes.Mixin.SlidesToShow:properties.slidesToShow'
         inspector:
           group: 'slick-responsive-sm'
 
@@ -25,7 +25,7 @@
       defaultValue: 1
       ui:
         reloadPageIfChanged: true
-        label: 'Noerdisch.Slick:NodeTypes.Mixin.SlidesToScroll:properties.slidesToScroll'
+        label: 'Unikka.Slick:NodeTypes.Mixin.SlidesToScroll:properties.slidesToScroll'
         inspector:
           group: 'slick-responsive-sm'
 
@@ -34,7 +34,7 @@
       defaultValue: true
       ui:
         reloadPageIfChanged: true
-        label: 'Noerdisch.Slick:NodeTypes.Mixin.Arrows:properties.arrows'
+        label: 'Unikka.Slick:NodeTypes.Mixin.Arrows:properties.arrows'
         inspector:
           group: 'slick-responsive-sm'
 
@@ -43,6 +43,6 @@
       defaultValue: false
       ui:
         reloadPageIfChanged: true
-        label: 'Noerdisch.Slick:NodeTypes.Mixin.Dots:properties.dots'
+        label: 'Unikka.Slick:NodeTypes.Mixin.Dots:properties.dots'
         inspector:
           group: 'slick-responsive-sm'

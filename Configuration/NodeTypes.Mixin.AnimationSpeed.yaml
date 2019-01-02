@@ -1,4 +1,4 @@
-'Noerdisch.Slick:Mixin.AnimationSpeed':
+'Unikka.Slick:Mixin.AnimationSpeed':
   abstract: true
 
   properties:
