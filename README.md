@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/unikka/unikka.de/src/assets/unikka.svg" width="300" style="background: rgba(30,30,30, 0.7);padding: 40px;border-radius: 15px;" />
-</div>
+  <img src="https://cdn.jsdelivr.net/gh/unikka/unikka.de/src/assets/unikka_with_background.svg" width="300" />
+</p>
 
 [![Packagist](https://img.shields.io/packagist/l/unikka/neos-slick.svg?style=flat-square)](https://packagist.org/packages/unikka/neos-slick)
 [![Packagist](https://img.shields.io/packagist/v/unikka/neos-slick.svg?style=flat-square)](https://packagist.org/packages/unikka/neos-slick)
