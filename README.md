@@ -115,5 +115,10 @@ building a new release when the analysis of the latest commits will trigger that
 
 If you have questions just ping us on twitter or github.
 
+## About
+
+The package is based on the `Noerdisch/Slick` package. We thank the Noerdisch team for
+all the efforts.
+
 ## License
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
