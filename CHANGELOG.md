@@ -1,3 +1,16 @@
+## [2.0.1](https://github.com/unikka/neos-slick/compare/v2.0.0...v2.0.1) (2019-01-07)
+
+
+### Build
+
+* Define release rules ([9e9514593f251b0c9350332b0f58f9d825433d36](https://github.com/unikka/neos-slick/commit/9e9514593f251b0c9350332b0f58f9d825433d36))
+* Use correct headerCorrespondence field ([8dcb1e6811133347a3b22852c428b63e4ecb5d92](https://github.com/unikka/neos-slick/commit/8dcb1e6811133347a3b22852c428b63e4ecb5d92))
+
+### Upgrade
+
+* Upgrade commitizen related packages ([c8398705223c24d34de903de84ff09e212044040](https://github.com/unikka/neos-slick/commit/c8398705223c24d34de903de84ff09e212044040))
+* Upgrade semantic release packages ([be4134924842ef206b53ada0d67403ea906fe029](https://github.com/unikka/neos-slick/commit/be4134924842ef206b53ada0d67403ea906fe029))
+
 # [2.0.0](https://github.com/unikka/neos-slick/compare/v1.4.0...v2.0.0) (2019-01-02)
 
 
