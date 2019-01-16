@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/unikka/neos-slick/compare/v2.0.1...v2.0.2) (2019-01-16)
+
+
+### Upgrade
+
+* update cz-adapter-eslint to version 0.2.0 ([ff4e76e845f60347d86b77150559b4a4afaa1b4b](https://github.com/unikka/neos-slick/commit/ff4e76e845f60347d86b77150559b4a4afaa1b4b))
+
 ## [2.0.1](https://github.com/unikka/neos-slick/compare/v2.0.0...v2.0.1) (2019-01-07)
 
 
