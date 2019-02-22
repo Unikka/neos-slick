@@ -1,3 +1,11 @@
+## [2.0.4](https://github.com/unikka/neos-slick/compare/v2.0.3...v2.0.4) (2019-02-22)
+
+
+### Upgrade
+
+* [Security] Bump handlebars from 4.0.12 to 4.1.0 ([ab5817b521116ce0b34d376e7bf161f00d73209b](https://github.com/unikka/neos-slick/commit/ab5817b521116ce0b34d376e7bf161f00d73209b))
+* Bump commitizen from 3.0.5 to 3.0.7 ([f42cbaf40ed3c63feb20b47d9296f0259d4b0f2e](https://github.com/unikka/neos-slick/commit/f42cbaf40ed3c63feb20b47d9296f0259d4b0f2e))
+
 ## [2.0.3](https://github.com/unikka/neos-slick/compare/v2.0.2...v2.0.3) (2019-02-06)
 
 
