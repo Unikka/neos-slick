@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/unikka/neos-slick/compare/v2.0.4...v2.0.5) (2019-04-20)
+
+
+### Upgrade
+
+* Bump commitizen from 3.0.7 to 3.1.0 ([7c34ed46f24c7668c123ae0ad88546707e5ebbc0](https://github.com/unikka/neos-slick/commit/7c34ed46f24c7668c123ae0ad88546707e5ebbc0))
+
 ## [2.0.4](https://github.com/unikka/neos-slick/compare/v2.0.3...v2.0.4) (2019-02-22)
 
 
