@@ -1,3 +1,10 @@
+## [2.0.9](https://github.com/unikka/neos-slick/compare/v2.0.8...v2.0.9) (2019-06-04)
+
+
+### Upgrade
+
+* [Security] Bump tar from 2.2.1 to 2.2.2 ([ed30f5060701cbf97dbb19e0bc57404c8c206dce](https://github.com/unikka/neos-slick/commit/ed30f5060701cbf97dbb19e0bc57404c8c206dce))
+
 ## [2.0.8](https://github.com/unikka/neos-slick/compare/v2.0.7...v2.0.8) (2019-06-04)
 
 
