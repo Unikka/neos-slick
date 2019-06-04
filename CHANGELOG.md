@@ -1,3 +1,15 @@
+## [2.0.8](https://github.com/unikka/neos-slick/compare/v2.0.7...v2.0.8) (2019-06-04)
+
+
+### TASK
+
+* Adds Funding.yml ([818d0d0c66ca588935b5c295e63e74d336f107e4](https://github.com/unikka/neos-slick/commit/818d0d0c66ca588935b5c295e63e74d336f107e4))
+
+### Upgrade
+
+* Bump fstream from 1.0.11 to 1.0.12 ([c0e077d3c255be9190ef29639e82c83114a07913](https://github.com/unikka/neos-slick/commit/c0e077d3c255be9190ef29639e82c83114a07913))
+* Bump marked from 0.6.0 to 0.6.2 ([2db0071af24273d52a4259ca1a897905768f5437](https://github.com/unikka/neos-slick/commit/2db0071af24273d52a4259ca1a897905768f5437))
+
 ## [2.0.7](https://github.com/unikka/neos-slick/compare/v2.0.6...v2.0.7) (2019-05-09)
 
 
