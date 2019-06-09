@@ -1,3 +1,11 @@
+## [2.0.10](https://github.com/unikka/neos-slick/compare/v2.0.9...v2.0.10) (2019-06-09)
+
+
+### Upgrade
+
+* Bump handlebars from 4.1.0 to 4.1.2 ([0b1f0e0cfd8244e69a025393929c5e65b50aaea5](https://github.com/unikka/neos-slick/commit/0b1f0e0cfd8244e69a025393929c5e65b50aaea5))
+* Bump js-yaml from 3.12.0 to 3.13.1 ([5e840a466dc793bccf0db52676d369c984e6a612](https://github.com/unikka/neos-slick/commit/5e840a466dc793bccf0db52676d369c984e6a612))
+
 ## [2.0.9](https://github.com/unikka/neos-slick/compare/v2.0.8...v2.0.9) (2019-06-04)
 
 
