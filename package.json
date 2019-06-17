@@ -1,6 +1,6 @@
 {
    "name": "neos-slick",
-   "version": "2.0.10",
+   "version": "2.0.11",
    "repository": "git@github.com:unikka/neos-slick.git",
    "license": "MIT",
    "dependencies": {
