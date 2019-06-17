@@ -1,3 +1,10 @@
+## [2.0.13](https://github.com/unikka/neos-slick/compare/v2.0.12...v2.0.13) (2019-06-17)
+
+
+### Upgrade
+
+* Bump @semantic-release/changelog from 3.0.2 to 3.0.4 ([a0f9214f2827b165a245625a678bc27e902ce15a](https://github.com/unikka/neos-slick/commit/a0f9214f2827b165a245625a678bc27e902ce15a))
+
 ## [2.0.12](https://github.com/unikka/neos-slick/compare/v2.0.11...v2.0.12) (2019-06-17)
 
 
