@@ -18,7 +18,7 @@
       "@semantic-release/release-notes-generator": "^7.2.0",
       "commitizen": "^3.1.1",
       "conventional-changelog-eslint": "^3.0.1",
-      "cz-adapter-eslint": "^0.2.0",
+      "cz-adapter-eslint": "^0.3.0",
       "semantic-release": "^15.13.17"
    },
    "greenkeeper": {
