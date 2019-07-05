@@ -1,3 +1,11 @@
+## [2.0.15](https://github.com/unikka/neos-slick/compare/v2.0.14...v2.0.15) (2019-07-05)
+
+
+### Upgrade
+
+* Bump @semantic-release/git from 7.0.13 to 7.0.16 ([e9e1a31f48e29fe7654f36850a14c62758a2c9c6](https://github.com/unikka/neos-slick/commit/e9e1a31f48e29fe7654f36850a14c62758a2c9c6))
+* Bump cz-adapter-eslint from 0.2.0 to 0.3.0 ([c69bcd29cb301ccb00a97d0b51ff06bdadb4c95f](https://github.com/unikka/neos-slick/commit/c69bcd29cb301ccb00a97d0b51ff06bdadb4c95f))
+
 ## [2.0.14](https://github.com/unikka/neos-slick/compare/v2.0.13...v2.0.14) (2019-06-26)
 
 
