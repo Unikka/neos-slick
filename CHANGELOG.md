@@ -1,3 +1,10 @@
+## [2.0.17](https://github.com/unikka/neos-slick/compare/v2.0.16...v2.0.17) (2019-08-08)
+
+
+### Upgrade
+
+* update commitizen to version 4.0.0 ([ec290b9a0a5efaed8dd7f8de500ceb69ca6aa2f7](https://github.com/unikka/neos-slick/commit/ec290b9a0a5efaed8dd7f8de500ceb69ca6aa2f7))
+
 ## [2.0.16](https://github.com/unikka/neos-slick/compare/v2.0.15...v2.0.16) (2019-07-05)
 
 
