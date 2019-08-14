@@ -19,7 +19,7 @@
       "commitizen": "^4.0.0",
       "conventional-changelog-eslint": "^3.0.1",
       "cz-adapter-eslint": "^0.3.0",
-      "semantic-release": "^15.13.19"
+      "semantic-release": "^15.13.21"
    },
    "greenkeeper": {
       "commitMessages": {
