@@ -8,7 +8,7 @@
             </trans-unit>
             <trans-unit id="groups.slick-appearance">
                 <source>Appearance</source>
-                <target xml:lang="de">Aussehn</target>
+                <target xml:lang="de">Aussehen</target>
             </trans-unit>
             <trans-unit id="groups.slick-animation">
                 <source>Animation</source>

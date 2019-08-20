@@ -4,7 +4,7 @@
         <body>
             <trans-unit id="properties.slidesToScroll" xml:space="preserve">
                 <source>Slides to scroll</source>
-                <target xml:lang="de">Slides weiter rutschen</target>
+                <target xml:lang="de">Slides weiter scrollen</target>
             </trans-unit>
         </body>
     </file>

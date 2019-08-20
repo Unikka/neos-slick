@@ -4,7 +4,7 @@
         <body>
             <trans-unit id="properties.fade" xml:space="preserve">
 				<source>Fade Slides</source>
-                <target xml:lang="de">Slides verblassen</target>
+                <target xml:lang="de">Slides faden</target>
 			</trans-unit>
         </body>
     </file>
