@@ -1,3 +1,10 @@
+## [2.0.19](https://github.com/unikka/neos-slick/compare/v2.0.18...v2.0.19) (2019-08-26)
+
+
+### Upgrade
+
+* Bump semantic-release from 15.13.19 to 15.13.24 ([bdea7dba5b59ec5f52671d588b58c7fc014f9337](https://github.com/unikka/neos-slick/commit/bdea7dba5b59ec5f52671d588b58c7fc014f9337))
+
 ## [2.0.18](https://github.com/unikka/neos-slick/compare/v2.0.17...v2.0.18) (2019-08-08)
 
 
