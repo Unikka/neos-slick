@@ -8,7 +8,7 @@
 			</trans-unit>
             <trans-unit id="properties.autoplaySpeed" xml:space="preserve">
 				<source>Autoplay speed (ms)</source>
-                <target xml:lang="de">Wechsel Geschwindigkeit (ms)</target>
+                <target xml:lang="de">Wechselgeschwindigkeit (ms)</target>
 			</trans-unit>
         </body>
     </file>

@@ -1,11 +1,11 @@
 Unikka:
   Slick:
-    # include the theme css file form slick
+    # include the theme css file from slick
     theme: true
     backend:
       # disables autoplay in backend
       disableAutoplay: true
-    # breakpoints for the repsonsive tab
+    # breakpoints for the responsive tab
     responsive:
       sm: 576
       md: 768
