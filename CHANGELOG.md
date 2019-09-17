@@ -1,3 +1,15 @@
+## [2.0.20](https://github.com/unikka/neos-slick/compare/v2.0.19...v2.0.20) (2019-09-17)
+
+
+### Docs
+
+* Add code climate badge ([4d64acbcdfedcf9d5277a1753ec731d598cfc260](https://github.com/unikka/neos-slick/commit/4d64acbcdfedcf9d5277a1753ec731d598cfc260))
+
+### Upgrade
+
+* [Security] Bump mixin-deep from 1.3.1 to 1.3.2 ([33f9464d363bbce99d8f3b9f61c558eca7ece65d](https://github.com/unikka/neos-slick/commit/33f9464d363bbce99d8f3b9f61c558eca7ece65d))
+* Bump @semantic-release/release-notes-generator ([03a5184d05759bcc5485c2eaee5c9c5658901ee6](https://github.com/unikka/neos-slick/commit/03a5184d05759bcc5485c2eaee5c9c5658901ee6))
+
 ## [2.0.19](https://github.com/unikka/neos-slick/compare/v2.0.18...v2.0.19) (2019-08-26)
 
 
