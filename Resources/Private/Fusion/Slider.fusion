@@ -1,4 +1,4 @@
-prototype(Unikka.Slick:Content.Slider) < prototype(Neos.Neos:ContentComponent) {
+prototype(Unikka.Slick:Content.Slider) < prototype(Neos.Fusion:Component) {
     slickProperties = ${ Unikka.Slick.getPropertiesByKeys(node, [
         'draggable', 'infinite', 'pauseOnHover', 'autoplaySpeed', 'speed',
         'autoplay', 'fade', 'arrows', 'dots', 'rtl', 'slidesToShow', 'slidesToScroll'
