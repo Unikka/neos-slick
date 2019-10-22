@@ -1,3 +1,0 @@
-prototype(Unikka.Slick:ConvertJson) {
-   @class = 'Unikka\\Slick\\Fusion\\ConvertJsonImplementation'
-}
