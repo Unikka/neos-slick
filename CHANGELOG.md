@@ -1,3 +1,45 @@
+# [3.0.0](https://github.com/unikka/neos-slick/compare/v2.0.20...v3.0.0) (2019-10-22)
+
+
+### Breaking
+
+* Change prototype inheritance from slider and slide component ([8b259a0](https://github.com/unikka/neos-slick/commit/8b259a0b38700619ea38a091e0a94c724c8e6b4e)), closes [#2](https://github.com/unikka/neos-slick/issues/2)
+
+### Bugfix
+
+* Add neos 4.x and 5.x as dependency ([9cdf11f](https://github.com/unikka/neos-slick/commit/9cdf11f9d50ce1c4b47d7a21535dc4156c802e0a))
+
+### Build
+
+* Remove greenkeeper.io ([1641eb5](https://github.com/unikka/neos-slick/commit/1641eb593c328282e09192d248bd3f763e32ccaa))
+* replace travis with circleci ([d0cd837](https://github.com/unikka/neos-slick/commit/d0cd837c359222385304618d88b26bb97cd802ef)), closes [#10](https://github.com/unikka/neos-slick/issues/10)
+
+### FEATURE
+
+* Make package neos 5 compatible ([2aaff6a](https://github.com/unikka/neos-slick/commit/2aaff6aead4978321834f2b541bd50bc63759535))
+
+### Fix
+
+* Move circleci branches to filters ([a72286d](https://github.com/unikka/neos-slick/commit/a72286d417fba6d8695c00bf42e1c971b6116838))
+* Replace removed yarn copy command ([66c390f](https://github.com/unikka/neos-slick/commit/66c390f11155483d7c3818e47dd807cccb917dfb))
+
+### New
+
+* configure circleCI branches ([131ec8e](https://github.com/unikka/neos-slick/commit/131ec8e2f7e2980354f72939f59a270f7fea8ccb))
+* Introduce webpack build chain ([4c73167](https://github.com/unikka/neos-slick/commit/4c73167fc1c1a0208e5f2da0b8fac03c0ed27637))
+* Replace ConvertJson eel helper with core feature ([7c826c4](https://github.com/unikka/neos-slick/commit/7c826c4924dead736b4aba607d5781cde5da06a9))
+* Use webpack js bundle ([9b0bd9d](https://github.com/unikka/neos-slick/commit/9b0bd9d2b9e866a4ac0c3e6eef319931fc252fbd))
+
+### TASK
+
+* Fix typos in readme and comments, streamline language, add i18n files for BackgroundImage mixin ([692d3ea](https://github.com/unikka/neos-slick/commit/692d3ea8a5c7694f5d45cc6b665c6429473f09ca))
+
+### Upgrade
+
+* Bump conventional-changelog-eslint from 3.0.1 to 3.0.4 ([d7cd114](https://github.com/unikka/neos-slick/commit/d7cd1144edad73cc3aea89121ad304d50f744bea))
+* Bump semantic-release from 15.13.24 to 15.13.27 ([730bc9a](https://github.com/unikka/neos-slick/commit/730bc9aaf687d99bf1f73c88c197e9828bb5e4d0))
+* Update neos/neos requirement from ~4.0 to ~5.0 ([3b02e07](https://github.com/unikka/neos-slick/commit/3b02e071bed221f2bad3eb5daff8a3078e864dfb))
+
 ## [2.0.20](https://github.com/unikka/neos-slick/compare/v2.0.19...v2.0.20) (2019-09-17)
 
 
