@@ -1,12 +1,12 @@
 prototype(Unikka.Slick:Stylesheet) <  prototype(Neos.Fusion:Array) {
     slick = Carbon.IncludeAssets:File {
-        file = 'slick.css'
+        file = 'main.css'
         assetPackage = 'Unikka.Slick'
         assetPath = 'Public'
     }
 
     theme = Carbon.IncludeAssets:File {
-        file = 'slick-theme.css'
+        file = 'theme.css'
         assetPackage = 'Unikka.Slick'
         assetPath = 'Public'
 

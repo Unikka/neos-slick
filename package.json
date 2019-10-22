@@ -4,22 +4,44 @@
    "repository": "git@github.com:unikka/neos-slick.git",
    "license": "MIT",
    "dependencies": {
+      "jquery": "^3.4.1",
       "slick-carousel": "^1.8.1"
    },
    "scripts": {
-      "copy": "cp -r ./node_modules/slick-carousel/slick/* ./Resources/Public",
       "test": "echo \"Error: no test specified\" && exit 0",
       "semantic-release": "semantic-release",
-      "commit": "git-cz"
+      "commit": "git-cz",
+      "build-js": "webpack --mode development",
+      "build-js:production": "NODE_ENV=production webpack --mode production",
+      "build-js-watch": "webpack --watch --mode development",
+      "build-styles": "webpack --config webpack.styles.config.js --mode development",
+      "build-styles:production": "NODE_ENV=production webpack --config webpack.styles.config.js --mode production",
+      "build-styles-watch": "webpack --config webpack.styles.config.js --watch --mode development",
+      "build:production": "yarn build-styles:production && yarn build-js:production"
    },
    "devDependencies": {
+      "@babel/cli": "^7.6.4",
+      "@babel/core": "^7.6.4",
+      "@babel/plugin-proposal-class-properties": "^7.5.5",
+      "@babel/plugin-transform-runtime": "^7.6.2",
+      "@babel/preset-env": "^7.6.3",
       "@semantic-release/changelog": "^3.0.4",
       "@semantic-release/git": "^7.0.16",
       "@semantic-release/release-notes-generator": "^7.3.0",
+      "babel-loader": "^8.0.6",
       "commitizen": "^4.0.0",
       "conventional-changelog-eslint": "^3.0.4",
+      "css-loader": "^3.2.0",
       "cz-adapter-eslint": "^0.3.0",
-      "semantic-release": "^15.13.27"
+      "file-loader": "^4.2.0",
+      "mini-css-extract-plugin": "^0.8.0",
+      "node-sass": "^4.12.0",
+      "sass-loader": "^8.0.0",
+      "semantic-release": "^15.13.27",
+      "style-loader": "^1.0.0",
+      "terser-webpack-plugin": "^2.1.3",
+      "webpack": "^4.41.2",
+      "webpack-cli": "^3.3.9"
    },
    "greenkeeper": {
       "commitMessages": {
