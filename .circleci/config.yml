@@ -14,7 +14,7 @@ jobs:
           key: 'neos-slick-v1-{{ checksum "yarn.lock" }}'
           paths:
             - ./node_modules
-      - run: yarn copy
+      - run: yarn build:production
       - run: npm run semantic-release
 
 workflows:
