@@ -6,7 +6,7 @@
     "require": {
         "ext-json": "*",
         "neos/flow": "*",
-        "neos/neos": "~4.0",
+        "neos/neos": "~5.0",
         "carbon/condition": "^1.1",
         "carbon/includeassets": "^3.0"
     },
