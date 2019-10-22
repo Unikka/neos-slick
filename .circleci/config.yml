@@ -16,6 +16,10 @@ jobs:
             - ./node_modules
       - run: yarn copy
       - run: npm run semantic-release
+    branches:
+      only:
+        - master
+        - /release-.*/
 
 workflows:
   version: 2
