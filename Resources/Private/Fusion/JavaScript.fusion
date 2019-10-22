@@ -1,16 +1,8 @@
 prototype(Unikka.Slick:Javascript) <  prototype(Neos.Fusion:Array) {
     file = Carbon.IncludeAssets:File {
-        file = 'slick.min.js'
+        file = 'main.min.js'
         assetPackage = 'Unikka.Slick'
         assetPath = 'Public'
     }
-
-    inline = Neos.Fusion:Tag {
-        tagName = 'script'
-        attributes.type = 'text/javascript'
-
-        content = "(function($) { setTimeout(function() { $('[data-slick]').slick();}, 0); })(jQuery);"
-    }
-
     @if.includeCase = Unikka.Slick:IncludeCase
 }
