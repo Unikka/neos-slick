@@ -6,14 +6,13 @@ prototype(Unikka.Slick:Content.Slider) < prototype(Neos.Fusion:Component) {
     responsiveProperties = Unikka.Slick:Content.Slide.ResponsiveConfig.Array {
         @context.node = ${ node }
     }
+
     renderer =  Neos.Neos:ContentCollection {
-        attributes.class = ${ q(node).property('additionalClass') }
-        attributes.data-slick = Neos.Fusion:DataStructure {
-            autoplayOverride = Neos.Fusion:RawArray {
-                autoplay = ${ Configuration.setting('Unikka.Slick.backend.disableAutoplay') && node.context.inBackend ? false : props.slickProperties.autoplay }
-            }
-            value = ${ Array.concat(props.slickProperties, props.responsiveProperties, this.autoplayOverride) }
+        autoplayOverride = Neos.Fusion:RawArray {
+            autoplay = ${ Configuration.setting('Unikka.Slick.backend.disableAutoplay') && node.context.inBackend ? false : props.slickProperties.autoplay }
         }
+        attributes.class = ${ q(node).property('additionalClass') }
+        attributes.data-slick = ${ Array.concat(props.slickProperties, props.responsiveProperties, this.autoplayOverride) }
         attributes.data-slick.@process.toJson = ${Json.stringify(value)}
         attributes.class.@process.collectionClass >
 
