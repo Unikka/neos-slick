@@ -1,3 +1,10 @@
+## [3.0.1](https://github.com/unikka/neos-slick/compare/v3.0.0...v3.0.1) (2019-10-23)
+
+
+### Fix
+
+* Fix slick configuration rendering ([bbfa718](https://github.com/unikka/neos-slick/commit/bbfa7186e0a87a51e12e08a75319a1003d8fb053))
+
 # [3.0.0](https://github.com/unikka/neos-slick/compare/v2.0.20...v3.0.0) (2019-10-22)
 
 
