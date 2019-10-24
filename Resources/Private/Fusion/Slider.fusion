@@ -23,6 +23,7 @@ prototype(Unikka.Slick:Content.Slider) < prototype(Neos.Fusion:Component) {
 
     renderer =  Neos.Neos:ContentCollection {
         attributes.class = ${ q(node).property('additionalClass') }
+        attributes.data-slider-identifier = ${node.name}
         attributes.data-slick = ${props.sliderProperties}
         attributes.data-slick.@process.toJson = ${Json.stringify(value)}
         attributes.class.@process.collectionClass >

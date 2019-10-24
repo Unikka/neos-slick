@@ -17,7 +17,7 @@ prototype(Unikka.Slick:Components.SlideContent) < prototype(Neos.Neos:ContentCom
     }
 
     renderer = afx`
-        <div class={props.classNames} style={props.additionalStyles} data-identifier={node.identifier}>
+        <div class={props.classNames} style={props.additionalStyles} data-slide-identifier={node.name}>
             <div class={props.innerContentClassNames}>{props.content}</div>
         </div>
     `
