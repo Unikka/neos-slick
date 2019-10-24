@@ -1,3 +1,53 @@
 $slick-font-path: '~slick-carousel/slick/fonts/' !default;
 $slick-loader-path: '~slick-carousel/slick/' !default;
-@import "~slick-carousel/slick/slick-theme.scss";
+@import '~slick-carousel/slick/slick-theme.scss';
+
+.slick-prev,
+.slick-next {
+    z-index: 10;
+}
+
+.slick-prev {
+    left: 5px;
+}
+
+.slick-next {
+    right: 5px;
+}
+
+.slick-dots {
+    position: absolute;
+    top: 5px;
+
+    li,
+    li.slick-active {
+        button:before {
+            color: #fff;
+        }
+    }
+}
+
+.slide__inner {
+    &__content {
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        padding: 30px;
+        z-index: 5;
+        overflow: scroll;
+
+        p,
+        span,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: #fff;
+        }
+
+        &__withBackground {
+            background-color: rgba(1, 1, 1, 0.6);
+        }
+    }
+}

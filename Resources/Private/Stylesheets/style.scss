@@ -104,11 +104,10 @@ $slick-loader-path: '~slick-carousel/slick/' !default;
 }
 
 .slick-slide {
-    min-height: 600px;
+    min-height: 400px;
 }
 
 .slide__inner {
-    height: 100%;
-    width: 100%;
     position: absolute;
+    height: 100%;
 }
