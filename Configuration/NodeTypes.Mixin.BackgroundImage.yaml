@@ -6,5 +6,9 @@
       type: Neos\Media\Domain\Model\ImageInterface
       ui:
         label: 'i18n'
+        reloadPageIfChanged: true
         inspector:
           group: 'slide'
+          editorOptions:
+            features:
+              crop: true

@@ -3,7 +3,12 @@
     'Neos.Neos:Content': true
     'Neos.Neos:ContentCollection': true
     'Unikka.Slick:Mixin.BackgroundImage': true
+    'Unikka.Slick:Mixin.ContentBackground': true
     'Unikka.Slick:Mixin.AdditionalClass': true
+  constraints:
+      nodeTypes:
+        'Unikka.Slick:Content.Slider': false
+        'Unikka.Slick:Content.Slide': false
 
   ui:
     label: 'Slide'

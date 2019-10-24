@@ -1,0 +1,24 @@
+prototype(Unikka.Slick:Components.SlideContent) < prototype(Neos.Neos:ContentComponent) {
+    additionalStyles = Neos.Fusion:Array {
+        background = ${ 'background: url(\'' + props.backgroundImage + '\'); no-repeat center center fixed' }
+        backgroundSize = ${ '-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;'}
+    }
+    additionalStyles.@if.hasBackground = ${ props.backgroundImage }
+
+    content = Neos.Neos:ContentCollection {
+        @if.hasContent = ${q(node).children().count() > 0}
+        nodePath = '.'
+    }
+
+    innerContentClassNames = Neos.Fusion:RawArray {
+        class = 'slide__inner__content'
+        tanslucendBackground = 'slide__inner__content__withBackground'
+        @if.enabledContentBackground = ${q(node).property('contentBackground')}
+    }
+
+    renderer = afx`
+        <div class={props.classNames} style={props.additionalStyles}>
+            <div class={props.innerContentClassNames}>{props.content}</div>
+        </div>
+    `
+}

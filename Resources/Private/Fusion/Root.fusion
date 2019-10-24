@@ -1,7 +1,4 @@
-include: *.fusion
-
+##
+# Include all .fusion files
 #
-# Thanks for using this package
-# If you have some issues, report them here:
-# https://github.com/Unikka/neos-slick/issues/new
-#
+include: ./**/*.fusion
