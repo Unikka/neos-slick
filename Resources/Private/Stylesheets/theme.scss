@@ -18,6 +18,8 @@ $slick-loader-path: '~slick-carousel/slick/' !default;
 .slick-dots {
     position: absolute;
     top: 5px;
+    bottom: 0;
+    height: 25px;
 
     li,
     li.slick-active {
