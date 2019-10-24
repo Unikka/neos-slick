@@ -5,6 +5,12 @@ Unikka:
     backend:
       # disables autoplay in backend
       disableAutoplay: true
+      # disables tabbing and arrow key navigation in backend
+      disableAccessibility: true
+      # disables mouse dragging in backend
+      disableDraggable: true
+      # disables swiping in backend
+      disableSwipe: true
     # breakpoints for the responsive tab
     responsive:
       sm: 576

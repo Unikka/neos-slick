@@ -1,19 +1,29 @@
 prototype(Unikka.Slick:Content.Slider) < prototype(Neos.Fusion:Component) {
+    // General slick slider properties
     slickProperties = ${ Unikka.Slick.getPropertiesByKeys(node, [
         'draggable', 'infinite', 'pauseOnHover', 'autoplaySpeed', 'speed',
         'autoplay', 'fade', 'arrows', 'dots', 'rtl', 'slidesToShow', 'slidesToScroll'
     ]) }
+
+    // Responsive overrides for slick slider properties
     responsiveProperties = Unikka.Slick:Content.Slide.ResponsiveConfig.Array {
         @context.node = ${ node }
     }
+
+    // Backend related slick slider property adjustments for better usablility
+    backendPropertyOverrides = Neos.Fusion:RawArray {
+        autoplay = ${ Configuration.setting('Unikka.Slick.backend.disableAutoplay') && node.context.inBackend ? false : props.slickProperties.autoplay }
+        accessibility = ${ Configuration.setting('Unikka.Slick.backend.disableAccessibility') && node.context.inBackend ? false : props.slickProperties.accessibility }
+        draggable = ${ Configuration.setting('Unikka.Slick.backend.disableDraggable') && node.context.inBackend ? false : props.slickProperties.draggable }
+        swipe = ${ Configuration.setting('Unikka.Slick.backend.disableSwipe') && node.context.inBackend ? false : props.slickProperties.swipe }
+    }
+
+    // Unified properties for the slider element
+    sliderProperties = ${ Array.concat(this.slickProperties, this.responsiveProperties, this.backendPropertyOverrides) }
+
     renderer =  Neos.Neos:ContentCollection {
         attributes.class = ${ q(node).property('additionalClass') }
-        attributes.data-slick = Neos.Fusion:DataStructure {
-            autoplayOverride = Neos.Fusion:RawArray {
-                autoplay = ${ Configuration.setting('Unikka.Slick.backend.disableAutoplay') && node.context.inBackend ? false : props.slickProperties.autoplay }
-            }
-            value = ${ Array.concat(props.slickProperties, props.responsiveProperties, this.autoplayOverride) }
-        }
+        attributes.data-slick = ${props.sliderProperties}
         attributes.data-slick.@process.toJson = ${Json.stringify(value)}
         attributes.class.@process.collectionClass >
 
