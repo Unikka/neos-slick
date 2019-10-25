@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Unikka.Slick" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="properties.contentBackground" xml:space="preserve">
+                <source>Content background color</source>
+                <target>Hintergund/Farbe Inhalt</target>
+            </trans-unit>
+            <trans-unit id="properties.contentBackground.ui.help.message" xml:space="preserve">
+                <source>Places the content on a dark transparent background for better readability.</source>
+                <target>Stellt den Inhalt auf einem dunklen durchsichtigen Hintergrund dar, um die Lesbarkeit zu verbessern.</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

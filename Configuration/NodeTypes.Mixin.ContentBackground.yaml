@@ -1,0 +1,14 @@
+'Unikka.Slick:Mixin.ContentBackground':
+  abstract: true
+
+  properties:
+    contentBackground:
+      type: boolean
+      defaultValue: true
+      ui:
+        reloadPageIfChanged: true
+        label: 'i18n'
+        help:
+          message: i18n
+        inspector:
+          group: 'slick-appearance'
