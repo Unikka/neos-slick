@@ -6,6 +6,8 @@ prototype(Unikka.Slick:Content.Slide) < prototype(Neos.Fusion:Component) {
 
     classNames = Neos.Fusion:RawArray {
         class = 'slide__inner'
+        lozad = 'lozad'
+        lozad.@if.enableLazy = ${ q(node).property('lazyLoading') }
         additionalClass = ${ q(node).property('additionalClass') }
         @process.collectionClass >
     }

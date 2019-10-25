@@ -4,6 +4,7 @@
     'Neos.Neos:ContentCollection': true
     'Unikka.Slick:Mixin.BackgroundImage': true
     'Unikka.Slick:Mixin.ContentBackground': true
+    'Unikka.Slick:Mixin.LazyLoading': true
     'Unikka.Slick:Mixin.AdditionalClass': true
   constraints:
       nodeTypes:

@@ -4,7 +4,7 @@
         <body>
             <trans-unit id="properties.contentBackground" xml:space="preserve">
                 <source>Content background color</source>
-                <target>Hintergund/Farbe Inhalt</target>
+                <target>Hintergund-Farbe Inhalt</target>
             </trans-unit>
             <trans-unit id="properties.contentBackground.ui.help.message" xml:space="preserve">
                 <source>Places the content on a dark transparent background for better readability.</source>

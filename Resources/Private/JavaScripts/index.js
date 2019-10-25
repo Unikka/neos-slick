@@ -1,6 +1,7 @@
 import $ from 'jquery';
+import lozad from 'lozad';
 import 'slick-carousel';
-import { getCollectionValueByPath, isNil } from './Helper';
+import { isNil } from './Helper';
 import { applyBackendAdjustments } from './Helper/Backend';
 
 const adjustDimensions = slick => {
@@ -14,6 +15,7 @@ const adjustDimensions = slick => {
     });
 };
 
+const observer = lozad();
 const sliders = $('[data-slick]');
 sliders.on('setPosition', function(event, slick) {
     adjustDimensions(slick);
@@ -23,7 +25,12 @@ sliders.on('init', function(event, slick) {
     if ('neos' in window) {
         applyBackendAdjustments(slick);
     }
+    observer.observe();
     adjustDimensions(slick);
+});
+
+sliders.on('beforeChange', function() {
+    observer.observe();
 });
 
 sliders.on('reinit', function(event, slick) {
