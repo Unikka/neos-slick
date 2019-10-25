@@ -52,7 +52,7 @@ If you want to disable the autoplay option in the backend, you can do this:
 |---------------------------------------|---------------|--------------------------|
 | Unikka.Slick:Mixin.Autoplay        | true          | Autoplay option          |
 | Unikka.Slick:Mixin.SlidesToScroll  | true          | How many slides scroll   |
-| Unikka.Slick:Mixin.Infinite        | true          | Infinite scrolling       |
+| Unikka.Slick:Mixin.Infinite        | false         | Infinite scrolling       |
 | Unikka.Slick:Mixin.Draggable       | true          | Draggable                |
 | Unikka.Slick:Mixin.PauseOnHover    | true          | Pause on hover           |
 | Unikka.Slick:Mixin.AnimationSpeed  | true          | Animation speed          |
