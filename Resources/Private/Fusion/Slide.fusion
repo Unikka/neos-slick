@@ -10,7 +10,14 @@ prototype(Unikka.Slick:Content.Slide) < prototype(Neos.Fusion:Component) {
         @process.collectionClass >
     }
 
-    renderer = afx`
-        <Unikka.Slick:Components.SlideContent classNames={props.classNames}/>
-    `
+    renderer = Neos.Fusion:Case {
+        noBackground {
+            condition = ${ !props.backgroundImage && node.context.inBackend }
+            renderer = afx`<Unikka.Slick:Components.Notification classNames={props.classNames} key='noBackground' default='Please add an background image in the inspector' />`
+        }
+        default {
+            condition = true
+            renderer = afx`<Unikka.Slick:Components.SlideContent classNames={props.classNames} />`
+        }
+    }
 }

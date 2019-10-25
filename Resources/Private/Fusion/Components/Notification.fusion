@@ -1,0 +1,10 @@
+prototype(Unikka.Slick:Components.Notification) < prototype(Neos.Neos:ContentComponent) {
+    key = ''
+    notificationClassNames = ${ Array.concat(this.classNames, ['notification__alert']) }
+
+    renderer = afx`
+        <div class={props.notificationClassNames} data-slide-identifier={node.name}>
+            {props.default}
+        </div>
+    `
+}

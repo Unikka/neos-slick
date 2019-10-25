@@ -4,7 +4,7 @@
   properties:
     contentBackground:
       type: boolean
-      defaultValue: false
+      defaultValue: true
       ui:
         reloadPageIfChanged: true
         label: 'i18n'
