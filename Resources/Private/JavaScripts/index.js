@@ -51,7 +51,11 @@ const collectSlideMetaInformation = () => {
 
 const selectSlideForNode = node => {
     const slideMetaInformation = collectSlideMetaInformation();
-    const selectSlide = getItemByKeyValue(slideMetaInformation, 'identifier', node.name);
+    const selectSlide = getItemByKeyValue(
+        slideMetaInformation,
+        'identifier',
+        node.name
+    );
     if (!isNil(selectSlide)) {
         const slider = getItemByKeyValue(
             sliderElements,
@@ -65,6 +69,11 @@ const selectSlideForNode = node => {
 
         if (sliderPosition >= 0) {
             slider.slider.slickGoTo(sliderPosition);
+
+            // resize window to rerender the backend ui controls
+            const resizeEvent = window.document.createEvent('UIEvents');
+            resizeEvent.initUIEvent('resize', true, false, window, 0);
+            window.dispatchEvent(resizeEvent);
         }
     }
 };
