@@ -1,6 +1,7 @@
 prototype(Unikka.Slick:Components.SlideContent) < prototype(Neos.Neos:ContentComponent) {
     additionalStyles = Neos.Fusion:Array {
         background = ${ 'background: url(\'' + props.backgroundImage + '\'); no-repeat center center fixed' }
+        background.@if.hasNoLazy = ${ !q(node).property('lazyLoading') }
         backgroundSize = ${ '-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;'}
     }
     additionalStyles.@if.hasBackground = ${ props.backgroundImage }
@@ -16,8 +17,11 @@ prototype(Unikka.Slick:Components.SlideContent) < prototype(Neos.Neos:ContentCom
         translucendBackground.@if.enabledContentBackground = ${q(node).property('contentBackground')}
     }
 
+    lazyBackgroundSource = ${ props.backgroundImage }
+    lazyBackgroundSource.@if.hasLazy = ${ q(node).property('lazyLoading') }
+
     renderer = afx`
-        <div class={props.classNames} style={props.additionalStyles} data-slide-identifier={node.name}>
+        <div class={props.classNames} style={props.additionalStyles} data-slide-identifier={node.name} data-background-image={props.lazyBackgroundSource}>
             <div class={props.innerContentClassNames}>{props.content}</div>
         </div>
     `

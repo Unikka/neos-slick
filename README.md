@@ -59,6 +59,7 @@ If you want to disable the autoplay option in the backend, you can do this:
 | Unikka.Slick:Mixin.Fade            | false         | Fade                     |
 | Unikka.Slick:Mixin.Arrows          | true          | Arrows shown             |
 | Unikka.Slick:Mixin.Dots            | false         | Dots shown               |
+| Unikka.Slick:Mixin.LazyLoading     | true          | Enables layz loading     |
 | Unikka.Slick:Mixin.SlidesToShow    | true          | Number of slides shown at once |
 | Unikka.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class     |
 | Unikka.Slick:Mixin.Repsonsive.Sm   | true          | Responsive group mobile  |
