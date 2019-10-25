@@ -17,13 +17,29 @@ const collectSlideMetaInformation = () => {
     return slideData;
 };
 
+const getSlideByChildNode = (node, slideMetainformation) => {
+    let selectSlide = null;
+    slideMetainformation.forEach(slide => {
+        if (node.contextPath.includes(slide.identifier)) {
+            selectSlide = slide;
+        }
+    });
+
+    return selectSlide;
+}
+
 const selectSlideForNode = (node, sliderElements) => {
     const slideMetaInformation = collectSlideMetaInformation();
-    const selectSlide = getItemByKeyValue(
+    let selectSlide = getItemByKeyValue(
         slideMetaInformation,
         'identifier',
         node.name
     );
+
+    if (isNil(selectSlide)) {
+        selectSlide = getSlideByChildNode(node, slideMetaInformation);
+    }
+
     if (!isNil(selectSlide)) {
         const slider = getItemByKeyValue(
             sliderElements,
