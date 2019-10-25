@@ -5,6 +5,7 @@ Neos:
         autoInclude:
           'Unikka.Slick':
           - 'NodeTypes/*'
+          - 'Main'
     fusion:
       autoInclude:
         Unikka.Slick: true

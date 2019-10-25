@@ -13,7 +13,7 @@ prototype(Unikka.Slick:Content.Slide) < prototype(Neos.Fusion:Component) {
     renderer = Neos.Fusion:Case {
         noBackground {
             condition = ${ !props.backgroundImage && node.context.inBackend }
-            renderer = afx`<Unikka.Slick:Components.Notification classNames={props.classNames} key='noBackground' default='Please add an background image in the inspector' />`
+            renderer = afx`<Unikka.Slick:Components.Notification classNames={props.classNames} key='notification.noBackground' default='Please add an background image in the inspector' />`
         }
         default {
             condition = true
