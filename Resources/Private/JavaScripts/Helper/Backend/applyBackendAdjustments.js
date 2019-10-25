@@ -1,4 +1,4 @@
-import { getCollectionValueByPath, isNil } from '../';
+import { getCollectionValueByPath, getItemByKeyValue, isNil } from '../';
 import {
     collectSlideMetaInformation,
     removeEmptySlides,
@@ -29,6 +29,21 @@ const applyBackendAdjustments = slick => {
     document.addEventListener('Neos.NodeRemoved', function(event) {
         const element = getCollectionValueByPath(event, 'detail.element');
         removeSlideForElement(element, sliderElements, slideMetaInformation);
+    });
+
+    // Remove slide from slick when node has been removed
+    document.addEventListener('Neos.NodeCreated', function(event) {
+        const element = getCollectionValueByPath(event, 'detail.element');
+        const parentSlider = $(element).closest('.slick-slider');
+        const parentIdentifier = parentSlider.data('slider-identifier');
+        const slider = getItemByKeyValue(
+            sliderElements,
+            'identifier',
+            parentIdentifier
+        );
+        if (!isNil(slider) && element.classList.contains('slide__inner')) {
+            document.location.reload();
+        }
     });
 
     // For some reason we have in the neos backend for each slide one additional

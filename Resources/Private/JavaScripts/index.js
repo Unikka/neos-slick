@@ -27,6 +27,9 @@ sliders.on('init', function(event, slick) {
 });
 
 sliders.on('reinit', function(event, slick) {
+    if ('neos' in window) {
+        applyBackendAdjustments(slick);
+    }
     adjustDimensions(slick);
 });
 
