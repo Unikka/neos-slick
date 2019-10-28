@@ -109,5 +109,9 @@ $slick-loader-path: '~slick-carousel/slick/' !default;
 
 .slide__inner {
     position: absolute;
-    height: 100%;
+    height: auto;
+
+    &__backgroudImage {
+        height: 100%;
+    }
 }
