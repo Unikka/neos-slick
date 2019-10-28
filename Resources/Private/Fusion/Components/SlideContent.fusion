@@ -7,8 +7,7 @@ prototype(Unikka.Slick:Components.SlideContent) < prototype(Neos.Neos:ContentCom
     additionalStyles.@if.hasBackground = ${ props.backgroundImage }
 
     content = Neos.Neos:ContentCollection {
-        @if.hasContent = ${q(node).children().count() > 0}
-        nodePath = '.'
+        nodePath = 'content'
     }
 
     innerContentClassNames = Neos.Fusion:RawArray {
