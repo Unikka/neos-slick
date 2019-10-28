@@ -1,3 +1,41 @@
+# [3.1.0](https://github.com/unikka/neos-slick/compare/v3.0.1...v3.1.0) (2019-10-28)
+
+
+### Docs
+
+* Improves docs for 3.1 release ([4a059df](https://github.com/unikka/neos-slick/commit/4a059dfff8011c7269c4bab45e89fce96c87e2b6))
+
+### Fix
+
+* Disable animation speed in backend ([8d62341](https://github.com/unikka/neos-slick/commit/8d623412abe792d862fc0cbbdb47a0ef7e38d1dd))
+* Fix overlapping of content section by the slide indicators ([9f056d8](https://github.com/unikka/neos-slick/commit/9f056d8f78289735d48b84a4c9c366cc75aa02ac))
+* Prevent that backend overrides adjust slick settings in the frontend ([d089ee0](https://github.com/unikka/neos-slick/commit/d089ee041374c1a7f83666367b5618c645778798))
+* Remove empty slides in neos backend ([eb967be](https://github.com/unikka/neos-slick/commit/eb967be564f18334939b0dba9c9597ad94a37dd4))
+
+### New
+
+* Add language labels for slide notification ([a649218](https://github.com/unikka/neos-slick/commit/a6492184cf9a9163d0e8ba540fe6f47da6fb3a4d))
+* Add support for background image layz loading ([7f5d422](https://github.com/unikka/neos-slick/commit/7f5d4225a84bffd58e471b5bb5050255ff87d54c))
+* Adjust the height of the inner slider content ([10d3272](https://github.com/unikka/neos-slick/commit/10d327230d12a19edaf4c1f378ace079997a3eb4))
+* Extract backend releated JS to own files ([75c808e](https://github.com/unikka/neos-slick/commit/75c808e7fcc4f8fe2e03b7ccfd6fdf735168b0f5))
+* Improve backend behaviour for editors ([7c72210](https://github.com/unikka/neos-slick/commit/7c7221077ae442525acdcfeafaee1b77b88bf054))
+* Improve styling of slider elements ([80fd307](https://github.com/unikka/neos-slick/commit/80fd30702d5e4e6a49f214bb2fedfd5afb39823c))
+* Reload guestframe when a new slide node has been created ([92dbe2e](https://github.com/unikka/neos-slick/commit/92dbe2e10e50fddb76135fec6ca95cd8843b4b2a))
+* Remove slide from slider when node has beed removed ([4c61581](https://github.com/unikka/neos-slick/commit/4c61581d8a69dafb8c1d47da8328e8632cf248ad))
+* Render content inside a slide ([d06fe2a](https://github.com/unikka/neos-slick/commit/d06fe2a7755df0720684c4763a70e29762d36a90))
+* Render notification when slide has no image ([1376328](https://github.com/unikka/neos-slick/commit/13763289aa340efe0e51b8b60c06d31df155ef3b))
+* Select slide by content-tree selection ([b140983](https://github.com/unikka/neos-slick/commit/b14098379e91007e6053e81f8034b0b869eab4ad))
+* Select slide when selecting child node of slide ([5f333b7](https://github.com/unikka/neos-slick/commit/5f333b7ba2cd7bfe6b98d7941546cd375f178ccd))
+
+### Update
+
+* Set default of infinite sliding to false ([45405a5](https://github.com/unikka/neos-slick/commit/45405a530a84a2ba8209b70db0489cae90f3c7ae))
+
+### Upgrade
+
+* Bump node-sass from 4.12.0 to 4.13.0 ([a4cc9ca](https://github.com/unikka/neos-slick/commit/a4cc9ca16f67e947e32b9d2f279c00e48975c4e9))
+* Bump terser-webpack-plugin from 2.1.3 to 2.2.1 ([a5240b5](https://github.com/unikka/neos-slick/commit/a5240b54268e64bc2f1c7f4695f074f54b37ef7d))
+
 ## [3.0.1](https://github.com/unikka/neos-slick/compare/v3.0.0...v3.0.1) (2019-10-23)
 
 
