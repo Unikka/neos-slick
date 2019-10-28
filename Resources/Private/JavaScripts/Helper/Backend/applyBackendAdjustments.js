@@ -31,21 +31,6 @@ const applyBackendAdjustments = slick => {
         removeSlideForElement(element, sliderElements, slideMetaInformation);
     });
 
-    // Remove slide from slick when node has been removed
-    document.addEventListener('Neos.NodeCreated', function(event) {
-        const element = getCollectionValueByPath(event, 'detail.element');
-        const parentSlider = $(element).closest('.slick-slider');
-        const parentIdentifier = parentSlider.data('slider-identifier');
-        const slider = getItemByKeyValue(
-            sliderElements,
-            'identifier',
-            parentIdentifier
-        );
-        if (!isNil(slider) && element.classList.contains('slide__inner')) {
-            document.location.reload();
-        }
-    });
-
     // For some reason we have in the neos backend for each slide one additional
     // empty slide. This is bit hacky way get rid of them.
     removeEmptySlides(slick);

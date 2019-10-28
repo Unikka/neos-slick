@@ -19,7 +19,8 @@
     'Unikka.Slick:Mixin.Repsonsive.Md': true
     'Unikka.Slick:Mixin.Repsonsive.Lg': true
     'Unikka.Slick:Mixin.Repsonsive.Xl': true
-
+  options:
+    reloadPageIfSliderChanged: true
   constraints:
     nodeTypes:
       '*': false
