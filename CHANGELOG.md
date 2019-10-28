@@ -1,3 +1,10 @@
+## [3.1.1](https://github.com/unikka/neos-slick/compare/v3.1.0...v3.1.1) (2019-10-28)
+
+
+### Fix
+
+* Fix height for notifications ([d73b1bb](https://github.com/unikka/neos-slick/commit/d73b1bbcdff917e9997c0cc069eac5c179c757ce))
+
 # [3.1.0](https://github.com/unikka/neos-slick/compare/v3.0.1...v3.1.0) (2019-10-28)
 
 
