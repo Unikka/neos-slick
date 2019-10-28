@@ -1,3 +1,11 @@
+## [3.1.2](https://github.com/unikka/neos-slick/compare/v3.1.1...v3.1.2) (2019-10-28)
+
+
+### Fix
+
+* Reload guest frame via yaml config instead of javascript ([70de8ec](https://github.com/unikka/neos-slick/commit/70de8ec355a9ca20394458e8bce67f4ec8c489ff))
+* Use content collection to prevent out of band rendering sideeffects ([510a0ed](https://github.com/unikka/neos-slick/commit/510a0edb02fd4bd03129eefcb81bf9aadc43c33d))
+
 ## [3.1.1](https://github.com/unikka/neos-slick/compare/v3.1.0...v3.1.1) (2019-10-28)
 
 
