@@ -20,17 +20,16 @@ composer require unikka/neos-slick --no-update
 
 The --no-update command prevents the automatic update of the dependencies. After the package was added to your theme `composer.json`, go back to the root of the Neos installation and run composer update. Your desired package is now installed correctly.
 
+
+![Content editing inside slides](https://user-images.githubusercontent.com/1014126/67662845-8383a780-f964-11e9-82b3-c82fff96b78a.gif)
+
+
 ## Usage
-This package uses background images as slides. If you want to use a fixed height for the slider you can use the following CSS:
+This package uses background images as slides. If you want to use a fixed height for the slider you can use the following CSS to override the defaults:
 
 ```css
 .slick-slide {
     min-height: <your-slide-height>;
-}
-.slide__inner {
-    height: 100%;
-    width: 100%;
-    position: absolute;
 }
 ```
 
@@ -59,7 +58,6 @@ If you want to disable the autoplay option in the backend, you can do this:
 | Unikka.Slick:Mixin.Fade            | false         | Fade                     |
 | Unikka.Slick:Mixin.Arrows          | true          | Arrows shown             |
 | Unikka.Slick:Mixin.Dots            | false         | Dots shown               |
-| Unikka.Slick:Mixin.LazyLoading     | true          | Enables layz loading     |
 | Unikka.Slick:Mixin.SlidesToShow    | true          | Number of slides shown at once |
 | Unikka.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class     |
 | Unikka.Slick:Mixin.Repsonsive.Sm   | true          | Responsive group mobile  |
@@ -71,8 +69,10 @@ If you want to disable the autoplay option in the backend, you can do this:
 
 | Mixin                                 | Default value | Description                |
 |---------------------------------------|---------------|----------------------------|
-| Unikka.Slick:Mixin.BackgroundImage | true          | Background image for Slide |
-| Unikka.Slick:Mixin.AdditionalClass | true          | Additional CSS-Class       |
+| Unikka.Slick:Mixin.BackgroundImage    | true          | Background image for Slide |
+| Unikka.Slick:Mixin.AdditionalClass    | true          | Additional CSS-Class       |
+| Unikka.Slick:Mixin.LazyLoading        | true          | Enables layz loading       |
+| Unikka.Slick:Mixin.ContentBackground  | true          | Enables dark translucend background |
 
 ### Fade option
 The fade options is disabled by default, because if you enable fade, the "slides to show" option isn't working. But you can simply enable it like this:
@@ -120,7 +120,7 @@ If you have questions just ping us on Twitter or Github.
 ## About
 
 The package is based on the `Noerdisch/Slick` package. We thank the Noerdisch team for
-all the efforts.
+all the efforts. Part of the development has been sponsored by the Danske Folkekirken, we are proud that the Folkekirken is using the slider package and supports open source software.
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
