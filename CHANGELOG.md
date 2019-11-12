@@ -1,3 +1,14 @@
+## [3.1.3](https://github.com/unikka/neos-slick/compare/v3.1.2...v3.1.3) (2019-11-12)
+
+
+### BUGFIX
+
+* typo in de/Main.xlf ([62b604a](https://github.com/unikka/neos-slick/commit/62b604ad2ece3006141a952b14de285185808161))
+
+### Build
+
+* Add markusguenther as github sponsor ([4ef5652](https://github.com/unikka/neos-slick/commit/4ef56527e9f200e8badb930ea57f8dbca289c123))
+
 ## [3.1.2](https://github.com/unikka/neos-slick/compare/v3.1.1...v3.1.2) (2019-10-28)
 
 
