@@ -21,7 +21,7 @@
       "build:production": "yarn build-styles:production && yarn build-js:production"
    },
    "devDependencies": {
-      "@babel/cli": "^7.6.4",
+      "@babel/cli": "^7.7.5",
       "@babel/core": "^7.6.4",
       "@babel/plugin-proposal-class-properties": "^7.5.5",
       "@babel/plugin-transform-runtime": "^7.6.2",
