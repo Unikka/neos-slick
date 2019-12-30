@@ -1,3 +1,10 @@
+## [3.1.7](https://github.com/unikka/neos-slick/compare/v3.1.6...v3.1.7) (2019-12-30)
+
+
+### Upgrade
+
+* Bump @babel/preset-env from 7.6.3 to 7.7.7 ([bfb5552](https://github.com/unikka/neos-slick/commit/bfb5552330e9a19bf67ecea4f68f2b28c04936a3))
+
 ## [3.1.6](https://github.com/unikka/neos-slick/compare/v3.1.5...v3.1.6) (2019-12-30)
 
 
