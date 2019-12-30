@@ -1,3 +1,13 @@
+## [3.1.4](https://github.com/unikka/neos-slick/compare/v3.1.3...v3.1.4) (2019-12-30)
+
+
+### Upgrade
+
+* [Security] Bump handlebars from 4.1.2 to 4.5.3 ([a9c452a](https://github.com/unikka/neos-slick/commit/a9c452a1cfcc23c7a0a4c4762f10e3492fd1878a))
+* [Security] Bump https-proxy-agent from 2.2.1 to 2.2.4 ([56660b5](https://github.com/unikka/neos-slick/commit/56660b58f7a1f982f8f9b21062d7827fb04179c5))
+* Bump @semantic-release/git from 7.0.16 to 7.0.18 ([1d0320a](https://github.com/unikka/neos-slick/commit/1d0320a45bb553ce4e9d5a1ad6f6c976e8d38615))
+* Bump webpack-cli from 3.3.9 to 3.3.10 ([99e6d0f](https://github.com/unikka/neos-slick/commit/99e6d0f923ac02514888c19144db6f2a53b60dd6))
+
 ## [3.1.3](https://github.com/unikka/neos-slick/compare/v3.1.2...v3.1.3) (2019-11-12)
 
 
