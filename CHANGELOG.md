@@ -1,3 +1,14 @@
+## [3.1.5](https://github.com/unikka/neos-slick/compare/v3.1.4...v3.1.5) (2019-12-30)
+
+
+### Upgrade
+
+* [Security] Bump npm from 6.4.1 to 6.13.4 ([ddfc3c3](https://github.com/unikka/neos-slick/commit/ddfc3c33b71c96b1d74a7bd613662990f4c7a13a))
+* Bump @babel/cli from 7.6.4 to 7.7.7 ([77b9102](https://github.com/unikka/neos-slick/commit/77b9102ea0dd7c239d97abca252aaa01bf4e4d17))
+* Bump @babel/plugin-proposal-class-properties ([3918d01](https://github.com/unikka/neos-slick/commit/3918d01bfdab98cb09e443bf8ac9fe01d6780f50))
+* Bump @semantic-release/changelog from 3.0.4 to 3.0.6 ([780eb1f](https://github.com/unikka/neos-slick/commit/780eb1fbf0a22d7a164c66c49af6ab4ea1e59f83))
+* Bump @semantic-release/release-notes-generator ([a36d475](https://github.com/unikka/neos-slick/commit/a36d475ff83b115112eba563779d4b3d07a1e5b4))
+
 ## [3.1.4](https://github.com/unikka/neos-slick/compare/v3.1.3...v3.1.4) (2019-12-30)
 
 
