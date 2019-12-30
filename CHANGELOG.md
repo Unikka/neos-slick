@@ -1,3 +1,10 @@
+## [3.1.8](https://github.com/unikka/neos-slick/compare/v3.1.7...v3.1.8) (2019-12-30)
+
+
+### Upgrade
+
+* Bump @babel/core from 7.6.4 to 7.7.7 ([1d533a8](https://github.com/unikka/neos-slick/commit/1d533a8cdf0160c754f54f62f4563bb22afab762))
+
 ## [3.1.7](https://github.com/unikka/neos-slick/compare/v3.1.6...v3.1.7) (2019-12-30)
 
 
