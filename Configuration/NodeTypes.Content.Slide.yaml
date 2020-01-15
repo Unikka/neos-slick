@@ -5,13 +5,11 @@
     'Unikka.Slick:Mixin.ContentBackground': true
     'Unikka.Slick:Mixin.LazyLoading': true
     'Unikka.Slick:Mixin.AdditionalClass': true
-  childNodes:
-    'content':
-      type: 'Neos.Neos:ContentCollection'
-      constraints:
-      nodeTypes:
-        'Unikka.Slick:Content.Slider': false
-        'Unikka.Slick:Content.Slide': false
+    'Neos.Neos:ContentCollection': true
+  constraints:
+    nodeTypes:
+      'Unikka.Slick:Content.Slider': false
+      'Unikka.Slick:Content.Slide': false
 
   ui:
     label: 'Slide'
