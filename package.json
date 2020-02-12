@@ -41,7 +41,7 @@
       "semantic-release": "^15.14.0",
       "style-loader": "^1.0.0",
       "terser-webpack-plugin": "^2.2.1",
-      "webpack": "^4.41.2",
+      "webpack": "^4.41.6",
       "webpack-cli": "^3.3.10"
    },
    "config": {
