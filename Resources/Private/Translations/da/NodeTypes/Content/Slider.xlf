@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Unikka.Slick" source-language="en" target-language="de" datatype="plaintext">
+        <body>
+            <trans-unit id="groups.slick-behavior">
+                <source>Behaviour</source>
+                <target xml:lang="da">Opførsel</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-appearance">
+                <source>Appearance</source>
+                <target xml:lang="da">Udseende</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-animation">
+                <source>Animation</source>
+                <target xml:lang="da">Animation</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-responsive-sm">
+                <source>Small devices</source>
+                <target xml:lang="da">Små enheder</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-responsive-md">
+                <source>Medium devices</source>
+                <target xml:lang="da">Medium enheder</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-responsive-lg">
+                <source>Large devices</source>
+                <target xml:lang="da">Store enheder</target>
+            </trans-unit>
+            <trans-unit id="groups.slick-responsive-xl">
+                <source>Extra large devices</source>
+                <target xml:lang="da">Ekstra store enheder</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

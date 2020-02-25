@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file original="" product-name="Unikka.Slick" source-language="en" target-language="dk" datatype="plaintext">
+        <body>
+            <trans-unit id="notification.noBackground" xml:space="preserve">
+                <source>Please add an background image in the inspector</source>
+                <target>Tilføj venligst et baggrundsbillede i inspektøren</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
