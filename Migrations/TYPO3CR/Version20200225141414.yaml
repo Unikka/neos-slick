@@ -1,0 +1,15 @@
+up:
+  comments: 'Migrate content collection of slides to a flat structure'
+  migration:
+    -
+      filters:
+        -
+          type: 'NodeType'
+          settings:
+            nodeType: 'Unikka.Slick:Content.Slide'
+      transformations:
+        -
+          type: 'Unikka\Slick\ContentRepository\Transformations\FlatSlideStructureTransformation'
+          settings: []
+down:
+  comments: 'No down migration available'

@@ -1,0 +1,15 @@
+up:
+  comments: 'Remove empty content collection of slides'
+  migration:
+    -
+      filters:
+        -
+          type: 'NodeType'
+          settings:
+            nodeType: 'Unikka.Slick:Content.Slide'
+      transformations:
+        -
+          type: 'Unikka\Slick\ContentRepository\Transformations\RemoveEmptyCollectionsTransformation'
+          settings: []
+down:
+  comments: 'No down migration available'
