@@ -1,3 +1,20 @@
+# [3.3.0](https://github.com/unikka/neos-slick/compare/v3.2.0...v3.3.0) (2020-02-25)
+
+
+### New
+
+* Add migration for cleaning empty content collections of slides ([53cd56e](https://github.com/unikka/neos-slick/commit/53cd56e086099be60dbe86b1ca268b9eb185ffdb))
+* Add migration for flat slide content structure ([9f1e18d](https://github.com/unikka/neos-slick/commit/9f1e18d5754c444e0b4d0e34fe5dd929422a67c6))
+
+### TASK
+
+* adjust slide nodetype definition, to be compatible with old version ([8933dba](https://github.com/unikka/neos-slick/commit/8933dbac8112fb1ae42f90ef474404eba915a4f0))
+
+### Upgrade
+
+* Bump @babel/core from 7.7.7 to 7.8.4 ([ac15915](https://github.com/unikka/neos-slick/commit/ac159156c9aa506e5ab224f64e34c93a076627a6))
+* Bump style-loader from 1.0.0 to 1.1.3 ([c7c0a46](https://github.com/unikka/neos-slick/commit/c7c0a46d6cbc70b0810aa7c67489f0510cb4bb55))
+
 # [3.2.0](https://github.com/unikka/neos-slick/compare/v3.1.8...v3.2.0) (2020-02-25)
 
 
