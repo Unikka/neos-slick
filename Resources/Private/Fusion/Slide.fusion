@@ -1,7 +1,6 @@
 prototype(Unikka.Slick:Content.Slide) < prototype(Neos.Fusion:Component) {
-    backgroundImage = ${ q(node).property('backgroundImage') }
-    backgroundImage.@process.convertToUri = Neos.Neos:ImageUri {
-        asset = ${ value }
+    backgroundImage = Neos.Neos:ImageUri {
+        asset = ${ q(node).property('backgroundImage') }
     }
 
     classNames = Neos.Fusion:RawArray {
