@@ -8,9 +8,9 @@ use Neos\ContentRepository\Migration\Transformations\AbstractTransformation;
 use Neos\Neos\Controller\CreateContentContextTrait;
 
 /**
- * Move content of slide content collections to the slide
+ * Remove empty content collections of the slide
  */
-class FlatSlideStructureTransformation extends AbstractTransformation
+class RemoveEmptyCollectionsTransformation extends AbstractTransformation
 {
     use CreateContentContextTrait;
 
@@ -36,21 +36,8 @@ class FlatSlideStructureTransformation extends AbstractTransformation
 
         foreach ($contentCollections as $contentCollection) {
             /** @var NodeInterface $contentCollection */
-            if ($contentCollection->hasChildNodes()) {
-                $this->moveChildNodesToSlide($contentCollection->getChildNodes(), $slideNode);
-            }
-        }
-    }
-
-    /**
-     * @param array $children
-     * @param NodeInterface $slide
-     */
-    protected function moveChildNodesToSlide(array $children, NodeInterface $slide) {
-        foreach ($children as $childNode) {
-            if ($childNode instanceof NodeInterface) {
-                /** @var NodeInterface $childNode */
-                $childNode->moveInto($slide);
+            if ($contentCollection->hasChildNodes() === false) {
+                $contentCollection->remove();
             }
         }
     }
