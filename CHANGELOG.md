@@ -1,3 +1,27 @@
+# [3.2.0](https://github.com/unikka/neos-slick/compare/v3.1.8...v3.2.0) (2020-02-25)
+
+
+### BUGFIX
+
+* Avoid exception ImageVariant could not be converted to string ([4e3a30a](https://github.com/unikka/neos-slick/commit/4e3a30a460b196f3ca615771c931bdd7ff07a4a6))
+
+### Build
+
+* Trigger release not on master branch ([cd220bb](https://github.com/unikka/neos-slick/commit/cd220bb456eee751b177395039b0d2ddc6556fd0))
+
+### FEATURE
+
+* Add danish translation ([a793e54](https://github.com/unikka/neos-slick/commit/a793e54544fc407e30201ac3bc0ecb559a32fd5f))
+
+### Upgrade
+
+* Bump @babel/preset-env from 7.7.7 to 7.8.4 ([49a3861](https://github.com/unikka/neos-slick/commit/49a386135297c28b8111fb6410ace3e219f0d3aa))
+* Bump css-loader from 3.2.0 to 3.4.2 ([7616067](https://github.com/unikka/neos-slick/commit/7616067429cbad03de80ea26447e6d20cd69d8a1))
+* Bump file-loader from 5.0.1 to 5.1.0 ([0b3bd49](https://github.com/unikka/neos-slick/commit/0b3bd492be07984ab1a48347842efd26fe7e1f87))
+* Bump semantic-release, @semantic-release/changelog, @semantic-release/git and @semantic-release/release-notes-generator ([3444158](https://github.com/unikka/neos-slick/commit/34441581d774ea63131bcfff0fe6579a7b4c1e04))
+* Bump terser-webpack-plugin from 2.2.1 to 2.3.5 ([700ea33](https://github.com/unikka/neos-slick/commit/700ea33da13ffd08c39ebc19a9172fa542802be0))
+* Bump webpack from 4.41.2 to 4.41.6 ([56cffbe](https://github.com/unikka/neos-slick/commit/56cffbee6079c719b46965b33f5f5fc9ecfbda46))
+
 ## [3.1.8](https://github.com/unikka/neos-slick/compare/v3.1.7...v3.1.8) (2019-12-30)
 
 
