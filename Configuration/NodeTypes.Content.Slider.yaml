@@ -36,12 +36,12 @@
         'slick':
           label: 'Slick '
           icon: 'icon-images'
-          position: 'before slick-responsive'
+          position: 18
 
         'slick-responsive':
           label: 'Slick Responsive'
           icon: 'icon-mobile'
-          position: 'before meta'
+          position: 19
       groups:
         'slick-behavior':
           label: 'i18n'
