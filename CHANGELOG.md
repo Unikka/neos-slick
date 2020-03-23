@@ -1,3 +1,11 @@
+## [3.3.1](https://github.com/unikka/neos-slick/compare/v3.3.0...v3.3.1) (2020-03-23)
+
+
+### Fix
+
+* Disable scrollbar for content slides ([99d9207](https://github.com/unikka/neos-slick/commit/99d92075311ec8fc7df06bbb0d4c69d37fee2594)), closes [#142](https://github.com/unikka/neos-slick/issues/142)
+* Resolve nodetype configuration position type ([f759ba0](https://github.com/unikka/neos-slick/commit/f759ba02adf6f92d73335e8829c6fab49f0a541c)), closes [#146](https://github.com/unikka/neos-slick/issues/146)
+
 # [3.3.0](https://github.com/unikka/neos-slick/compare/v3.2.0...v3.3.0) (2020-02-25)
 
 
