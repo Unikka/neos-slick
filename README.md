@@ -112,8 +112,7 @@ instead of struggling in the dependency or release hell.
 Therefore the first rule is to follow the [eslint commit message guideline](https://github.com/conventional-changelog-archived-repos/conventional-changelog-eslint/blob/master/convention.md).
 It is really easy if you always commit via `yarn commit`. Commitizen will guide you.
 
-All PRs will be merged into the master branch. Travis and semantic release will check the commit messages and start
-building a new release when the analysis of the latest commits will trigger that.
+All PRs will be merged into the develop branch. A new release will be triggered by merging the develop branch into the master. CircleCI and semantic release will check the commit messages and start building a new release when the analysis of the latest commits will trigger that.
 
 If you have questions just ping us on Twitter or Github.
 
