@@ -4,7 +4,7 @@
    "repository": "git@github.com:unikka/neos-slick.git",
    "license": "MIT",
    "dependencies": {
-      "jquery": "^3.4.1",
+      "jquery": "^3.5.0",
       "lozad": "^1.14.0",
       "slick-carousel": "^1.8.1"
    },
