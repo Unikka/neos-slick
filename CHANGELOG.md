@@ -1,3 +1,11 @@
+## [3.3.2](https://github.com/unikka/neos-slick/compare/v3.3.1...v3.3.2) (2020-07-30)
+
+
+### Upgrade
+
+* [Security] Bump elliptic from 6.5.1 to 6.5.3 ([233f90c](https://github.com/unikka/neos-slick/commit/233f90c4da92f04d2ecb12c10d017e960013664b))
+* [Security] Bump npm from 6.13.7 to 6.14.7 ([b5996be](https://github.com/unikka/neos-slick/commit/b5996beb96add68d0513f50b3318483b8b7aa158))
+
 ## [3.3.1](https://github.com/unikka/neos-slick/compare/v3.3.0...v3.3.1) (2020-03-23)
 
 
