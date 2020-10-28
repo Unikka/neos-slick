@@ -1,3 +1,10 @@
+# [3.4.0](https://github.com/unikka/neos-slick/compare/v3.3.2...v3.4.0) (2020-10-28)
+
+
+### FEATURE
+
+* Allow the new version of Carbon.IncludeAssets ([04f9ba7](https://github.com/unikka/neos-slick/commit/04f9ba78c74cc5b12284b3cab040478890234142))
+
 ## [3.3.2](https://github.com/unikka/neos-slick/compare/v3.3.1...v3.3.2) (2020-07-30)
 
 
