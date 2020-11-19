@@ -1,3 +1,10 @@
+## [3.4.1](https://github.com/unikka/neos-slick/compare/v3.4.0...v3.4.1) (2020-11-19)
+
+
+### Upgrade
+
+* [Security] Bump semantic-release from 17.0.4 to 17.2.3 ([5ef4701](https://github.com/unikka/neos-slick/commit/5ef4701af94cc87c54d4e4ff5652f0115601d264))
+
 # [3.4.0](https://github.com/unikka/neos-slick/compare/v3.3.2...v3.4.0) (2020-10-28)
 
 
