@@ -1,8 +1,6 @@
-prototype(Unikka.Slick:Javascript) <  prototype(Neos.Fusion:Array) {
-    file = Carbon.IncludeAssets:File {
-        file = 'main.min.js'
-        assetPackage = 'Unikka.Slick'
-        assetPath = 'Public'
-    }
+prototype(Unikka.Slick:Javascript) < prototype(Neos.Fusion:Component) {
+    renderer = afx`
+        <script defer src={StaticResource.uri('Unikka.Slick', 'Public/main.min.js')}></script>
+    `
     @if.includeCase = Unikka.Slick:IncludeCase
 }
