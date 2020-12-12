@@ -1,20 +1,18 @@
 const debug = process.env.NODE_ENV !== 'production';
 const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const webpack = require('webpack');
 
 const webpackConfig = {
     context: __dirname,
-    devtool: false,
+    devtool: 'inline-sourcemap',
     entry: {
         main: ['./Resources/Private/Stylesheets/style.scss'],
         theme: ['./Resources/Private/Stylesheets/theme.scss']
     },
     output: {
-        publicPath: '',
         path: __dirname + '/Resources/Public',
-        filename: '[name][chunkhash].css',
+        filename: '[name].css'
     },
     module: {
         rules: [
@@ -48,7 +46,7 @@ const webpackConfig = {
             }
         ]
     },
-    plugins: [new MiniCssExtractPlugin({ filename: '[name].css' })],
+    plugins: [new MiniCssExtractPlugin({ filename: './[name].css' })],
     optimization: {
         minimizer: []
     },
@@ -58,7 +56,7 @@ const webpackConfig = {
 };
 
 if (!debug) {
-    webpackConfig.devtool = 'cheap-source-map';
+    webpackConfig.devtool = false;
     webpackConfig.optimization.minimizer.push(
         new TerserPlugin({
             terserOptions: {
