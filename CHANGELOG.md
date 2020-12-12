@@ -1,3 +1,14 @@
+# [4.0.0](https://github.com/unikka/neos-slick/compare/v3.5.2...v4.0.0) (2020-12-12)
+
+
+### Breaking
+
+* Adds neos version 7 compatibility ([165db4d](https://github.com/unikka/neos-slick/commit/165db4d5a54a6f64c4d35b8d5dcabcde93056d96))
+
+### Upgrade
+
+* [Security] Bump ini from 1.3.5 to 1.3.8 ([e184dfa](https://github.com/unikka/neos-slick/commit/e184dfa62e4ee884ad2357a7d53d33eac335e716))
+
 ## [3.5.2](https://github.com/unikka/neos-slick/compare/v3.5.1...v3.5.2) (2020-12-12)
 
 
