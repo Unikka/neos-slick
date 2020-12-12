@@ -1,6 +1,5 @@
 const debug = process.env.NODE_ENV !== 'production';
 const TerserPlugin = require('terser-webpack-plugin');
-const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const webpack = require('webpack');
 
 const webpackConfig = {
@@ -39,7 +38,6 @@ const webpackConfig = {
             $: 'jquery',
             jQuery: 'jquery'
         }),
-        new CleanWebpackPlugin(),
     ],
     optimization: {
         minimizer: []
