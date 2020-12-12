@@ -1,17 +1,10 @@
-prototype(Unikka.Slick:Stylesheet) <  prototype(Neos.Fusion:Array) {
-    slick = Carbon.IncludeAssets:File {
-        file = 'main.css'
-        assetPackage = 'Unikka.Slick'
-        assetPath = 'Public'
-    }
-
-    theme = Carbon.IncludeAssets:File {
-        file = 'theme.css'
-        assetPackage = 'Unikka.Slick'
-        assetPath = 'Public'
-
-        @if.enabled = ${ Configuration.setting('Unikka.Slick.theme') }
-    }
+prototype(Unikka.Slick:Stylesheet) < prototype(Neos.Fusion:Component) {
+    enableTheme = ${ Configuration.setting('Unikka.Slick.theme') }
+    
+    renderer = afx`
+        <link rel="stylesheet" href={StaticResource.uri('Unikka.Slick', 'Public/main.css')} media="all" />
+        <link rel="stylesheet" href={StaticResource.uri('Unikka.Slick', 'Public/theme.css')} media="all" @if.enableTheme={props.enableTheme} />
+    `
 
     @if.includeCase = Unikka.Slick:IncludeCase
 }
