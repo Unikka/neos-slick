@@ -1,3 +1,14 @@
+## [3.5.1](https://github.com/unikka/neos-slick/compare/v3.5.0...v3.5.1) (2020-12-12)
+
+
+### Build
+
+* Commit minified styles ([6435ad3](https://github.com/unikka/neos-slick/commit/6435ad3057ff1cb2b58c7ff2455aefcaa1fcdfba))
+
+### Fix
+
+* Downgrad webpack to version 4 ([f5dcdf8](https://github.com/unikka/neos-slick/commit/f5dcdf8f43e96d8337276bb0a179386fc5fcb25d))
+
 # [3.5.0](https://github.com/unikka/neos-slick/compare/v3.4.1...v3.5.0) (2020-12-12)
 
 
