@@ -1,3 +1,16 @@
+# [3.5.0](https://github.com/unikka/neos-slick/compare/v3.4.1...v3.5.0) (2020-12-12)
+
+
+### Update
+
+* Update semantic-release and commitizen dependencies ([f3ff5bb](https://github.com/unikka/neos-slick/commit/f3ff5bb09db45a2cef96ff262582c74a0ea9d798))
+
+### Upgrade
+
+* Update babel packages to latest version ([d82f22d](https://github.com/unikka/neos-slick/commit/d82f22dce1dadc955c935804f356b6f506667583))
+* Update main dependencies ([aa89381](https://github.com/unikka/neos-slick/commit/aa89381321fbea2d17c2e3fef77da5c840149d41))
+* Updates build tools ([5263d93](https://github.com/unikka/neos-slick/commit/5263d934ff2a5cf5e4c592ac7099662a776c86d0))
+
 ## [3.4.1](https://github.com/unikka/neos-slick/compare/v3.4.0...v3.4.1) (2020-11-19)
 
 
