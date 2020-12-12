@@ -4,6 +4,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const webpack = require('webpack');
 
 const webpackConfig = {
+    devtool: 'cheap-source-map',
     context: __dirname,
     entry: {
         main: ['./Resources/Private/JavaScripts/index.js']
@@ -49,7 +50,7 @@ const webpackConfig = {
 };
 
 if (!debug) {
-    webpackConfig.devtool = 'cheap-source-map';
+    webpackConfig.devtool = false;
     webpackConfig.optimization.minimizer.push(
         new TerserPlugin({
             terserOptions: {
