@@ -1,3 +1,10 @@
+## [3.5.2](https://github.com/unikka/neos-slick/compare/v3.5.1...v3.5.2) (2020-12-12)
+
+
+### Fix
+
+* Remove clean-webpack-plugin again ([ae1913f](https://github.com/unikka/neos-slick/commit/ae1913fd039956145b7f5712ff569a7c87aa72d0))
+
 ## [3.5.1](https://github.com/unikka/neos-slick/compare/v3.5.0...v3.5.1) (2020-12-12)
 
 
