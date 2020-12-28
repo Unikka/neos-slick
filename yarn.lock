@@ -1476,12 +1476,12 @@
   dependencies:
     envinfo "^7.7.3"
 
-"@webpack-cli/migrate@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@webpack-cli/migrate/-/migrate-1.1.0.tgz#89f6cd439e28c7d4c753e28943d46e865cfc67eb"
-  integrity sha512-KhlW0OlhRMWv3Y5CLdAeRp+KsLlurgYy+sLnkqvc/bEmI1Ly3ZPKZ1J9IJW+BsebmY/uP63OQ+rG9Mfnzt/Wsg==
+"@webpack-cli/migrate@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@webpack-cli/migrate/-/migrate-1.1.1.tgz#b1743e4df2980a54e055cadaa0f3439925802009"
+  integrity sha512-Qjh7hGdaVgreQWNsxDTVBe025o4sg/TEoP7LgfhQ2ogTqPWPO2vKqbcOxyzyc6Mk4yflc93C/TTKZ5109+SynA==
   dependencies:
-    "@webpack-cli/utils" "^1.1.0"
+    "@webpack-cli/utils" "^1.2.0"
     colorette "^1.2.1"
     diff "^4.0.2"
     inquirer "^7.3.3"
@@ -1495,13 +1495,12 @@
   resolved "https://registry.yarnpkg.com/@webpack-cli/serve/-/serve-1.1.0.tgz#13ad38f89b6e53d1133bac0006a128217a6ebf92"
   integrity sha512-7RfnMXCpJ/NThrhq4gYQYILB18xWyoQcBey81oIyVbmgbc6m5ZHHyFK+DyH7pLHJf0p14MxL4mTsoPAgBSTpIg==
 
-"@webpack-cli/utils@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@webpack-cli/utils/-/utils-1.1.0.tgz#b4bf5d96f2db92ab495a5c153339963c3b139911"
-  integrity sha512-XQnQL4XMxSr0x7Z5qGgqTCOuvkudOJVj32wpaKtArUZHH5MJLiYVVYG13e5cguEKSMTxeQ/l0q8ta/fuX6EFrw==
+"@webpack-cli/utils@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@webpack-cli/utils/-/utils-1.2.0.tgz#5e3f6334222bcbaca6657af33d4e94ec863e338b"
+  integrity sha512-a8qZLtKNZZ3mi6IUK2vHWwRLq+4uQKdq3AZJh6f4KvexOFdLyTsEKpkKZwqV9fwmZGQPoaCAaOoL5neIUbm3xw==
   dependencies:
     colorette "^1.2.1"
-    cross-spawn "^7.0.3"
     execa "^4.1.0"
     findup-sync "^4.0.0"
     global-modules "^2.0.0"
