@@ -1,3 +1,12 @@
+## [4.0.1](https://github.com/unikka/neos-slick/compare/v4.0.0...v4.0.1) (2021-04-08)
+
+
+### Upgrade
+
+* [Security] Bump elliptic from 6.5.3 to 6.5.4 ([062e1bc](https://github.com/unikka/neos-slick/commit/062e1bcf981a5179fd58c1cfd7f0edc8da41e058))
+* [Security] Bump handlebars from 4.5.3 to 4.7.7 ([401d06e](https://github.com/unikka/neos-slick/commit/401d06e2c6c1d8f08b806e21abde60b4286e23f6))
+* [Security] Bump npm-user-validate from 1.0.0 to 1.0.1 ([a20246d](https://github.com/unikka/neos-slick/commit/a20246d3c190794ab6531dbae4ac4a745fea02cf))
+
 # [4.0.0](https://github.com/unikka/neos-slick/compare/v3.5.2...v4.0.0) (2020-12-12)
 
 
