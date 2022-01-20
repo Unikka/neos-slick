@@ -1,3 +1,12 @@
+## [4.0.3](https://github.com/unikka/neos-slick/compare/v4.0.2...v4.0.3) (2022-01-20)
+
+
+### Upgrade
+
+* Bump path-parse from 1.0.6 to 1.0.7 ([b6d653f](https://github.com/unikka/neos-slick/commit/b6d653f4704ff4eb158050add06c492ba0b601be))
+* Bump tar from 4.4.13 to 4.4.19 ([8cc9a8d](https://github.com/unikka/neos-slick/commit/8cc9a8de43c11e6a197bdc2d771b32796da9f821))
+* Bump trim-off-newlines from 1.0.1 to 1.0.3 ([793dda0](https://github.com/unikka/neos-slick/commit/793dda047fdc6c311c58ad5aef5bc212a1362793))
+
 ## [4.0.2](https://github.com/unikka/neos-slick/compare/v4.0.1...v4.0.2) (2022-01-20)
 
 
