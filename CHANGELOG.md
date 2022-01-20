@@ -1,3 +1,10 @@
+## [4.0.2](https://github.com/unikka/neos-slick/compare/v4.0.1...v4.0.2) (2022-01-20)
+
+
+### Upgrade
+
+* Bump shelljs from 0.8.4 to 0.8.5 ([f3fc795](https://github.com/unikka/neos-slick/commit/f3fc795cbca5b7c9c768cf0b6633c1451e0b9c01))
+
 ## [4.0.1](https://github.com/unikka/neos-slick/compare/v4.0.0...v4.0.1) (2021-04-08)
 
 
