@@ -1,3 +1,27 @@
+# [4.1.0](https://github.com/unikka/neos-slick/compare/v4.0.3...v4.1.0) (2023-10-04)
+
+
+### Build
+
+* Change CircleCI node image to version 18 ([8315b27](https://github.com/unikka/neos-slick/commit/8315b279443aee0cab0cf4f7ed5f929afc7520e8))
+* Change the CircleCI nodejs version ([d7fd759](https://github.com/unikka/neos-slick/commit/d7fd759cf6d86859dcf9adba6411afe0ff366a1f))
+
+### New
+
+* Adds Neos 8 compatibility ([78f2043](https://github.com/unikka/neos-slick/commit/78f2043eed2d9472d278a5209f41d7aed4f43674))
+
+### Upgrade
+
+* Bump moment from 2.29.1 to 2.29.4 ([c090c2a](https://github.com/unikka/neos-slick/commit/c090c2a264140eb15f2738e089a69509b5c6bb23))
+* Bump node-fetch from 2.3.0 to 2.6.7 ([55528df](https://github.com/unikka/neos-slick/commit/55528df38a4799a4988185d2003108f1f3f52796))
+* Bump postcss from 8.2.1 to 8.4.13 ([f559828](https://github.com/unikka/neos-slick/commit/f5598283a922bf24e68612258c308f64d321e4b9))
+* Bump set-getter from 0.1.0 to 0.1.1 ([8105ac1](https://github.com/unikka/neos-slick/commit/8105ac16067424bfe7a5c7e544a0aceba974c9b0))
+* Bump terser from 4.8.0 to 4.8.1 ([6dfc8ed](https://github.com/unikka/neos-slick/commit/6dfc8ed9d7fb163726e8921ceceb3aeb0f19caae))
+* Update node-sass to 8.0 ([7bb7445](https://github.com/unikka/neos-slick/commit/7bb7445273b6ea0274b9dc4b314e1fe2a315041b))
+* Upgrade babel libraries ([effe29f](https://github.com/unikka/neos-slick/commit/effe29f66b02c4db4b0d8139c42b078fecf4e18a))
+* Upgrade semantic release ([4ba2e69](https://github.com/unikka/neos-slick/commit/4ba2e69ed4f03264ccbe236fb4f8646ff4022f50))
+* Upgrade webpack related packages ([26d2349](https://github.com/unikka/neos-slick/commit/26d2349c1e30d9ccb8639695aef7357d1fbac54b))
+
 ## [4.0.3](https://github.com/unikka/neos-slick/compare/v4.0.2...v4.0.3) (2022-01-20)
 
 
